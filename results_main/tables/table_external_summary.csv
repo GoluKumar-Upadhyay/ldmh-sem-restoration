@@ -1,0 +1,4 @@
+model,params,n_seeds,PSNR,SSIM,HP_Err,min_per_run
+NAFNet-small,112817,4,27.684 +- 0.029,0.7314,0.1101,7.6
+Restormer-small,111917,4,27.923 +- 0.014,0.7399,0.1044,25.3
+SwinIR-small,100813,4,27.852 +- 0.017,0.7369,0.1052,25.2

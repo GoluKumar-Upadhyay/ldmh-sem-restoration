@@ -1,0 +1,21 @@
+arm,network,params,loss,extra
+baseline,BaselineNet,86945,charbonnier,{}
+global_gc,BaselineNet,86945,gen_charbonnier,{}
+film_control,DistributionMixtureRestorationNet,116138,charbonnier,{}
+full,DistributionMixtureRestorationNet,116138,mixture,"{'div': 0.1, 'bal': 0.3}"
+full_clamp,DistributionMixtureRestorationNet,116138,mixture,"{'div': 0.1, 'bal': 0.3, 'beta_mode': 'clamp'}"
+full_no_bal,DistributionMixtureRestorationNet,116138,mixture,"{'div': 0.1, 'bal': 0.0}"
+full_no_div,DistributionMixtureRestorationNet,116138,mixture,"{'div': 0.0, 'bal': 0.3}"
+full_stress,DistributionMixtureRestorationNet,116138,mixture,"{'div': 0.1, 'bal': 0.3, 'proto_lr_mult': 50.0}"
+full_clamp_stress,DistributionMixtureRestorationNet,116138,mixture,"{'div': 0.1, 'bal': 0.3, 'beta_mode': 'clamp', 'proto_lr_mult': 50.0}"
+scale_only,ScaleOnlyNet,115490,scale_nll,{'scale_beta': 1.53}
+scale_only_g2,ScaleOnlyNet,115490,scale_nll,{'scale_beta': 2.0}
+scale_control,ScaleOnlyNet,115490,charbonnier,{}
+full_outnll,DistributionMixtureRestorationNet,116138,mixture_out,"{'div': 0.1, 'bal': 0.3, 'out_nll': 0.2}"
+NAFNet-small,_SRWrap,112817,charbonnier,{}
+Restormer-small,_SRWrap,111917,charbonnier,{}
+SwinIR-small,_SRWrap,100813,charbonnier,{}
+Restormer-FiLM-control,RestormerLDMHNet,141110,charbonnier,{'backbone': 'restormer'}
+Restormer-LDMH-full,RestormerLDMHNet,141110,mixture,"{'div': 0.1, 'bal': 0.3, 'backbone': 'restormer'}"
+Restormer-LDMH-outnll,RestormerLDMHNet,141110,mixture_out,"{'div': 0.1, 'bal': 0.3, 'backbone': 'restormer', 'out_nll': 0.2}"
+Restormer-LDMH-deep,RestormerLDMHNet,238070,mixture,"{'div': 0.1, 'bal': 0.3, 'backbone': 'restormer', 'film_every': True}"

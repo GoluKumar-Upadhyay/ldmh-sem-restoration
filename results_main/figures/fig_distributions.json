@@ -1,0 +1,15 @@
+{
+ "figure": "fig_distributions",
+ "generated_by": "master notebook",
+ "epochs": 30,
+ "seeds": [
+  4,
+  5,
+  6,
+  7
+ ],
+ "n_pairs": 3200,
+ "split": "train",
+ "n_images": 60,
+ "pooled_excess_kurtosis": 3.32564115524292
+}

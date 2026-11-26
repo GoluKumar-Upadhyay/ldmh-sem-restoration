@@ -1,0 +1,13 @@
+{
+ "figure": "fig_train_global_gc",
+ "generated_by": "master notebook",
+ "epochs": 30,
+ "seeds": [
+  0,
+  1
+ ],
+ "n_pairs": 3200,
+ "model": "global_gc",
+ "test_image": "001425.npy",
+ "split": "test (median index)"
+}

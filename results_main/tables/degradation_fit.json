@@ -1,0 +1,10 @@
+{
+ "looks": 9.259709358215332,
+ "sigma": 0.04252737760543823,
+ "a": 0.02699868753552437,
+ "b": 0.00045214444980956614,
+ "r2_signal_dependence": 0.9977861642837524,
+ "mean_residual": 8.677723235450685e-05,
+ "n_pixels": 2621600,
+ "note": "moment-matching estimate; check r2_signal_dependence before trusting looks/sigma"
+}

@@ -1,0 +1,30 @@
+{
+ "figure": "fig_q1_confirmatory",
+ "generated_by": "master notebook",
+ "epochs": 30,
+ "seeds": [
+  4,
+  5,
+  6,
+  7
+ ],
+ "n_pairs": 3200,
+ "family": [
+  "KLA  full - FiLM control (capacity-matched)",
+  "KLA  full - baseline",
+  "KLA  full - scale-only (shape mixture vs scale)",
+  "D2   full - FiLM control (Poisson-Gaussian)",
+  "D2   full - scale-only (Poisson-Gaussian)",
+  "Restormer  LDMH - FiLM control (transfer)",
+  "Restormer  LDMH - Restormer-small",
+  "LONG schedule  full - FiLM control",
+  "LONG schedule  Restormer LDMH - Restormer-small",
+  "KLA  Restormer-small - full (external backbone)",
+  "KLA  SwinIR-small - full",
+  "KLA  NAFNet-small - full",
+  "KLA  hard clamp - full (equivalence)",
+  "KLA  no balance penalty - full (equivalence)",
+  "KLA  no diversity penalty - full (equivalence)"
+ ],
+ "margin_db": 0.05
+}

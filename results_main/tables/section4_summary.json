@@ -1,0 +1,54 @@
+{
+ "global_best_model": "Hetero-GGD (beta=1.53)",
+ "ab": {
+  "a": 0.03406723900807617,
+  "b": 5.1708286740514505e-05,
+  "ggd_beta": 0.7978815716514408,
+  "ggd_alpha": 0.04100733841282936,
+  "n": 3276800
+ },
+ "ICC": {
+  "ICC": 0.5156882242317752,
+  "var_between": 0.10218789091623796,
+  "var_within": 0.09597038789353719,
+  "patches_per_image": 16.0
+ },
+ "observed": {
+  "edge_density": {
+   "r": -0.37262279505088697,
+   "ci95": [
+    -0.43075039951884103,
+    -0.3191514024389909
+   ],
+   "n_patches": 6400,
+   "n_images": 400
+  },
+  "gt_var": {
+   "r": -0.5032841686048142,
+   "ci95": [
+    -0.5392471199895542,
+    -0.472067749624866
+   ],
+   "n_patches": 6400,
+   "n_images": 400
+  },
+  "entropy": {
+   "r": -0.41979560225655704,
+   "ci95": [
+    -0.46675660639047045,
+    -0.3743446944109743
+   ],
+   "n_patches": 6400,
+   "n_images": 400
+  }
+ },
+ "partial_corr_vs_local_intensity": {
+  "edge_density": -0.4700015215594708,
+  "gt_var": -0.6778462294037932,
+  "entropy": -0.6342307984507887
+ },
+ "excess_sd": 0.0,
+ "mean_gap": 0.009110640842696638,
+ "heterogeneity_of_shape_supported": false,
+ "verdict": "NOT SUPPORTED: signal-dependent (heteroscedastic) Gaussian noise reproduces the heavy-tailed pooled fit, the patch-beta spread and the feature correlations. Reframe Section IV as 'signal-dependent noise scale', and test the method against a scale-only model."
+}

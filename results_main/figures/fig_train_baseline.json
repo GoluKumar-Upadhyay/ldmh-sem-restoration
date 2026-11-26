@@ -1,0 +1,15 @@
+{
+ "figure": "fig_train_baseline",
+ "generated_by": "master notebook",
+ "epochs": 30,
+ "seeds": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "n_pairs": 3200,
+ "model": "baseline",
+ "test_image": "001425.npy",
+ "split": "test (median index)"
+}

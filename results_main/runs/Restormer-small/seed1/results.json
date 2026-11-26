@@ -1,0 +1,29 @@
+{
+ "name": "Restormer-small",
+ "seed": 1,
+ "best_epoch": 28,
+ "epochs_run": 30,
+ "params": 111917,
+ "val": {
+  "psnr": 27.95295672416687,
+  "ssim": 0.7564768842421472,
+  "hp_err": 0.10009033984970302,
+  "edge_corr": 0.8682149368338287,
+  "edge_f1": 0.6166038874071091,
+  "flat_err": 0.019891545726568437
+ },
+ "test": {
+  "psnr": 27.911388927698134,
+  "ssim": 0.7399145614821464,
+  "hp_err": 0.10483606885536574,
+  "edge_corr": 0.8582529733423143,
+  "edge_f1": 0.6075864206068218,
+  "flat_err": 0.02244263946195133
+ },
+ "train_minutes": 25.32367659409841,
+ "device": "cuda",
+ "cfg": {
+  "arch": "ext:Restormer-small",
+  "loss": "charbonnier"
+ }
+}

@@ -1,0 +1,29 @@
+# Claims ledger
+
+- **R1** Hard-clamped beta collapses; sigmoid beta does not: **NOT RUN** - need full_clamp_stress and full_stress (Session 2)
+  - allowed: -
+  - forbidden: any statement that collapse was demonstrated in the full network
+- **R2a** Balance penalty is needed to avoid a dead component: **NOT SUPPORTED** - no_bal collapsed 0/4; full 0/8
+  - allowed: The balance penalty did not matter in our setting (report as an ablation, not as a necessary component).
+  - forbidden: The balance penalty is necessary.
+- **R2b** Diversity penalty is needed to keep betas apart: **NOT SUPPORTED** - no_div collapsed 0/4; full 0/8
+  - allowed: The diversity penalty did not matter in our setting.
+  - forbidden: The diversity penalty is necessary.
+- **R3** The mixture of shapes adds beyond a per-pixel scale: **SUPPORTED** - full - scale_only = +0.100 dB [+0.057, +0.142], seed-level p=0.00231
+  - allowed: A learned mixture of shapes improves over a scale-only model.
+  - forbidden: -
+- **R4** The module beats a capacity-matched control: **SUPPORTED** - full - film_control = +0.087 dB [+0.055, +0.119], seed-level p=9.39e-05; image-level p=9e-43 (not the decision rule)
+  - allowed: A small but statistically reliable gain over the capacity-matched control on the compact backbone.
+  - forbidden: -
+- **R5:Restormer-LDMH-full** Restormer-LDMH-full helps a strong backbone: **NOT SUPPORTED** - Restormer-LDMH-full - Restormer-FiLM-control = -0.007 dB [-0.052, +0.037], p=0.682
+  - allowed: The module is backbone-specific (does not transfer to Restormer).
+  - forbidden: The module is architecture-agnostic / general plug-in.
+- **R7** Gain on a second noise domain: **NOT RUN** - need domain-2 runs (Session 3)
+  - allowed: -
+  - forbidden: any cross-domain claim
+- **R6** Improves defect detection (recall at 1 FA/image): **NOT SUPPORTED** - full - film_control = -0.005 [-0.025, +0.013] over 447 defects (images are a FALLBACK, not real SEM: cannot be claimed)
+  - allowed: Restoration quality gains did not measurably translate into detection (state this plainly).
+  - forbidden: Improves defect inspection / manufacturing yield.
+- **R9** Compact-model framing: **SUPPORTED** - see efficiency table (Part 11) and comparison with Restormer/SwinIR small
+  - allowed: A 116k-parameter model that closes a modest part of the gap to larger backbones at a fraction of their cost (quote the efficiency table).
+  - forbidden: State of the art / outperforms Restormer or SwinIR.

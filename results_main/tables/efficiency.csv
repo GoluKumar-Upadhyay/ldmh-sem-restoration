@@ -1,0 +1,10 @@
+arm,params,GFLOPs_64x64_in,cpu_ms_128,gpu_ms_128
+baseline,86945,0.974,145.4,20.93
+film_control,116138,1.211,160.5,23.99
+full,116138,1.211,167.3,20.8
+scale_only,115490,1.206,165.7,23.07
+NAFNet-small,112817,0.182,32.2,5.32
+Restormer-small,111917,0.967,109.7,12.89
+SwinIR-small,100813,0.993,134.2,16.16
+Restormer-FiLM-control,141110,1.203,178.2,14.38
+Restormer-LDMH-full,141110,1.203,173.6,14.38

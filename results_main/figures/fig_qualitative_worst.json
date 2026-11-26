@@ -1,0 +1,11 @@
+{
+ "split": "test",
+ "image": "002639.npy",
+ "rule": "worst PSNR of baseline",
+ "seeds": {
+  "baseline": 0,
+  "global_gc": 0,
+  "film_control": 0,
+  "full": 0
+ }
+}

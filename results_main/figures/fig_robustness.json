@@ -1,0 +1,36 @@
+{
+ "split": "test",
+ "n_images": 320,
+ "looks": 9.259709358215332,
+ "sigma": 0.04252737760543823,
+ "configs": [
+  "baseline",
+  "global_gc",
+  "film_control",
+  "full"
+ ],
+ "seeds": {
+  "baseline": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "global_gc": [
+   0,
+   1
+  ],
+  "film_control": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "full": [
+   0,
+   1,
+   2,
+   3
+  ]
+ }
+}

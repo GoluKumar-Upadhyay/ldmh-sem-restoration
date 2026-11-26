@@ -1,0 +1,7 @@
+{
+ "C1  Full > Baseline (PSNR)": "SUPPORTED  (diff=+0.1231, CI [+0.1102,+0.1366], p_holm=7.52e-51)",
+ "C2  Full > FiLM-control  (gain is due to distribution modelling, not capacity)": "SUPPORTED  (diff=+0.0781, CI [+0.0666,+0.0898], p_holm=1.47e-38)",
+ "C3  Full > Global-GC (PSNR)": "n/a (config or reference not run)",
+ "C4  LDMH-loss-only differs from Baseline? (should be NOT SUPPORTED: backbone unaffected)": "n/a (config or reference not run)",
+ "C5  Full > Baseline (HP-Err, top-5% pixels; lower is better)": "SUPPORTED  (diff=+0.0017, CI [+0.0015,+0.0019], p_holm=1.36e-42)"
+}

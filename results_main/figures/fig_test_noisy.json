@@ -1,0 +1,18 @@
+{
+ "figure": "fig_test_noisy",
+ "generated_by": "master notebook",
+ "epochs": 30,
+ "seeds": [
+  4,
+  5,
+  6,
+  7
+ ],
+ "n_pairs": 3200,
+ "files": [
+  "000000.npy",
+  "000001.npy",
+  "000002.npy",
+  "000003.npy"
+ ]
+}

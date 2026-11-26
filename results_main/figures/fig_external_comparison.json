@@ -1,0 +1,23 @@
+{
+ "figure": "fig_external_comparison",
+ "generated_by": "master notebook",
+ "epochs": 30,
+ "seeds": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "n_pairs": 3200,
+ "models": [
+  "NAFNet-small",
+  "Restormer-small",
+  "SwinIR-small"
+ ],
+ "n_seeds": {
+  "NAFNet-small": 4,
+  "Restormer-small": 4,
+  "SwinIR-small": 4
+ },
+ "split_sha1": "31d7258b8c36e2fd1262b33776880d7ec6ed4ce2"
+}

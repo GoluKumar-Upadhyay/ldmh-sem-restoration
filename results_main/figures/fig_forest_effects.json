@@ -1,0 +1,13 @@
+{
+ "figure": "fig_forest_effects",
+ "generated_by": "master notebook",
+ "epochs": 30,
+ "seeds": [
+  4,
+  5,
+  6,
+  7
+ ],
+ "n_pairs": 3200,
+ "n_effects": 12
+}

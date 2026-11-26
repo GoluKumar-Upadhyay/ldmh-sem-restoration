@@ -1,0 +1,332 @@
+{
+ "ledger": [
+  {
+   "rule": "R1",
+   "claim": "Hard-clamped beta collapses; sigmoid beta does not",
+   "verdict": "NOT RUN",
+   "evidence": "need full_clamp_stress and full_stress (Session 2)",
+   "allowed_wording": "-",
+   "forbidden_wording": "any statement that collapse was demonstrated in the full network"
+  },
+  {
+   "rule": "R2a",
+   "claim": "Balance penalty is needed to avoid a dead component",
+   "verdict": "NOT SUPPORTED",
+   "evidence": "no_bal collapsed 0/4; full 0/8",
+   "allowed_wording": "The balance penalty did not matter in our setting (report as an ablation, not as a necessary component).",
+   "forbidden_wording": "The balance penalty is necessary."
+  },
+  {
+   "rule": "R2b",
+   "claim": "Diversity penalty is needed to keep betas apart",
+   "verdict": "NOT SUPPORTED",
+   "evidence": "no_div collapsed 0/4; full 0/8",
+   "allowed_wording": "The diversity penalty did not matter in our setting.",
+   "forbidden_wording": "The diversity penalty is necessary."
+  },
+  {
+   "rule": "R3",
+   "claim": "The mixture of shapes adds beyond a per-pixel scale",
+   "verdict": "SUPPORTED",
+   "evidence": "full - scale_only = +0.100 dB [+0.057, +0.142], seed-level p=0.00231",
+   "allowed_wording": "A learned mixture of shapes improves over a scale-only model.",
+   "forbidden_wording": ""
+  },
+  {
+   "rule": "R4",
+   "claim": "The module beats a capacity-matched control",
+   "verdict": "SUPPORTED",
+   "evidence": "full - film_control = +0.087 dB [+0.055, +0.119], seed-level p=9.39e-05; image-level p=9e-43 (not the decision rule)",
+   "allowed_wording": "A small but statistically reliable gain over the capacity-matched control on the compact backbone.",
+   "forbidden_wording": ""
+  },
+  {
+   "rule": "R5:Restormer-LDMH-full",
+   "claim": "Restormer-LDMH-full helps a strong backbone",
+   "verdict": "NOT SUPPORTED",
+   "evidence": "Restormer-LDMH-full - Restormer-FiLM-control = -0.007 dB [-0.052, +0.037], p=0.682",
+   "allowed_wording": "The module is backbone-specific (does not transfer to Restormer).",
+   "forbidden_wording": "The module is architecture-agnostic / general plug-in."
+  },
+  {
+   "rule": "R7",
+   "claim": "Gain on a second noise domain",
+   "verdict": "NOT RUN",
+   "evidence": "need domain-2 runs (Session 3)",
+   "allowed_wording": "-",
+   "forbidden_wording": "any cross-domain claim"
+  },
+  {
+   "rule": "R6",
+   "claim": "Improves defect detection (recall at 1 FA/image)",
+   "verdict": "NOT SUPPORTED",
+   "evidence": "full - film_control = -0.005 [-0.025, +0.013] over 447 defects (images are a FALLBACK, not real SEM: cannot be claimed)",
+   "allowed_wording": "Restoration quality gains did not measurably translate into detection (state this plainly).",
+   "forbidden_wording": "Improves defect inspection / manufacturing yield."
+  },
+  {
+   "rule": "R9",
+   "claim": "Compact-model framing",
+   "verdict": "SUPPORTED",
+   "evidence": "see efficiency table (Part 11) and comparison with Restormer/SwinIR small",
+   "allowed_wording": "A 116k-parameter model that closes a modest part of the gap to larger backbones at a fraction of their cost (quote the efficiency table).",
+   "forbidden_wording": "State of the art / outperforms Restormer or SwinIR."
+  }
+ ],
+ "effects": [
+  {
+   "label": "full_clamp - full",
+   "a": "full_clamp",
+   "b": "full",
+   "domain": "runs",
+   "n_a": 4,
+   "n_b": 8,
+   "diff": -0.0029420863837010813,
+   "ci_lo": -0.04715298996214667,
+   "ci_hi": 0.041268817194744505,
+   "p_welch": 0.8668096714386195,
+   "img_diff": -0.0029420863837003597,
+   "img_lo": -0.004914943892508734,
+   "img_hi": -0.0009548873640596653,
+   "p_wilcoxon": 2.2352949894290844e-06,
+   "key": [
+    "runs",
+    "full_clamp",
+    "full"
+   ]
+  },
+  {
+   "label": "full_no_bal - full",
+   "a": "full_no_bal",
+   "b": "full",
+   "domain": "runs",
+   "n_a": 4,
+   "n_b": 8,
+   "diff": -0.0045546550303683375,
+   "ci_lo": -0.045576214617954,
+   "ci_hi": 0.03646690455721732,
+   "p_welch": 0.7832100540507145,
+   "img_diff": -0.004554655030369758,
+   "img_lo": -0.007696402342990041,
+   "img_hi": -0.0013812533766031276,
+   "p_wilcoxon": 0.0002499807270534946,
+   "key": [
+    "runs",
+    "full_no_bal",
+    "full"
+   ]
+  },
+  {
+   "label": "full_no_div - full",
+   "a": "full_no_div",
+   "b": "full",
+   "domain": "runs",
+   "n_a": 4,
+   "n_b": 8,
+   "diff": -0.004898767545821414,
+   "ci_lo": -0.04823643336769007,
+   "ci_hi": 0.03843889827604724,
+   "p_welch": 0.7772283879583042,
+   "img_diff": -0.004898767545819282,
+   "img_lo": -0.0068711935356259345,
+   "img_hi": -0.002944003846496345,
+   "p_wilcoxon": 9.82350189446389e-10,
+   "key": [
+    "runs",
+    "full_no_div",
+    "full"
+   ]
+  },
+  {
+   "label": "full - film_control",
+   "a": "full",
+   "b": "film_control",
+   "domain": "runs",
+   "n_a": 8,
+   "n_b": 8,
+   "diff": 0.08662407957017493,
+   "ci_lo": 0.054583165614439974,
+   "ci_hi": 0.11866499352590988,
+   "p_welch": 9.385863776561847e-05,
+   "img_diff": 0.0866240795701742,
+   "img_lo": 0.07509948247112332,
+   "img_hi": 0.09814643055200575,
+   "p_wilcoxon": 8.95651250981908e-43,
+   "key": [
+    "runs",
+    "full",
+    "film_control"
+   ]
+  },
+  {
+   "label": "full - baseline",
+   "a": "full",
+   "b": "baseline",
+   "domain": "runs",
+   "n_a": 8,
+   "n_b": 8,
+   "diff": 0.11117091216147301,
+   "ci_lo": 0.07435127326923896,
+   "ci_hi": 0.14799055105370706,
+   "p_welch": 5.020972782737576e-05,
+   "img_diff": 0.11117091216146946,
+   "img_lo": 0.09971363339573144,
+   "img_hi": 0.12329343104735017,
+   "p_wilcoxon": 6.000995174774225e-52,
+   "key": [
+    "runs",
+    "full",
+    "baseline"
+   ]
+  },
+  {
+   "label": "full - scale_only",
+   "a": "full",
+   "b": "scale_only",
+   "domain": "runs",
+   "n_a": 8,
+   "n_b": 4,
+   "diff": 0.09954066164791442,
+   "ci_lo": 0.056658325518346445,
+   "ci_hi": 0.1424229977774824,
+   "p_welch": 0.0023128451162429866,
+   "img_diff": 0.09954066164791583,
+   "img_lo": 0.08615072495304048,
+   "img_hi": 0.11418098282068967,
+   "p_wilcoxon": 3.5552993266540363e-48,
+   "key": [
+    "runs",
+    "full",
+    "scale_only"
+   ]
+  },
+  {
+   "label": "scale_only - film_control",
+   "a": "scale_only",
+   "b": "film_control",
+   "domain": "runs",
+   "n_a": 4,
+   "n_b": 8,
+   "diff": -0.012916582077739491,
+   "ci_lo": -0.057865257544517025,
+   "ci_hi": 0.03203209338903804,
+   "p_welch": 0.5224773221103567,
+   "img_diff": -0.012916582077741623,
+   "img_lo": -0.028516315314918713,
+   "img_hi": 0.0020584251545369397,
+   "p_wilcoxon": 0.7636723003683666,
+   "key": [
+    "runs",
+    "scale_only",
+    "film_control"
+   ]
+  },
+  {
+   "label": "scale_only - baseline",
+   "a": "scale_only",
+   "b": "baseline",
+   "domain": "runs",
+   "n_a": 4,
+   "n_b": 8,
+   "diff": 0.011630250513558593,
+   "ci_lo": -0.03574115832738633,
+   "ci_hi": 0.059001659354503515,
+   "p_welch": 0.5901149077299392,
+   "img_diff": 0.01163025051355363,
+   "img_lo": 0.0006107757706195233,
+   "img_hi": 0.02258795284666124,
+   "p_wilcoxon": 8.874301834554401e-05,
+   "key": [
+    "runs",
+    "scale_only",
+    "baseline"
+   ]
+  },
+  {
+   "label": "Restormer-FiLM-control - Restormer-small",
+   "a": "Restormer-FiLM-control",
+   "b": "Restormer-small",
+   "domain": "runs",
+   "n_a": 4,
+   "n_b": 4,
+   "diff": 0.03627435117959976,
+   "ci_lo": -0.008272175003478946,
+   "ci_hi": 0.08082087736267847,
+   "p_welch": 0.08795241002098976,
+   "img_diff": 0.03627435117959974,
+   "img_lo": 0.030532017871737448,
+   "img_hi": 0.04249171841889618,
+   "p_wilcoxon": 4.32314309167602e-38,
+   "key": [
+    "runs",
+    "Restormer-FiLM-control",
+    "Restormer-small"
+   ]
+  },
+  {
+   "label": "Restormer-LDMH-full - Restormer-FiLM-control",
+   "a": "Restormer-LDMH-full",
+   "b": "Restormer-FiLM-control",
+   "domain": "runs",
+   "n_a": 4,
+   "n_b": 4,
+   "diff": -0.0073959507048115825,
+   "ci_lo": -0.052010386413729674,
+   "ci_hi": 0.03721848500410651,
+   "p_welch": 0.6823794436299617,
+   "img_diff": -0.007395950704813003,
+   "img_lo": -0.012420739065855741,
+   "img_hi": -0.0028367488831281787,
+   "p_wilcoxon": 0.015071662615295986,
+   "key": [
+    "runs",
+    "Restormer-LDMH-full",
+    "Restormer-FiLM-control"
+   ]
+  },
+  {
+   "label": "Restormer-LDMH-full - Restormer-small",
+   "a": "Restormer-LDMH-full",
+   "b": "Restormer-small",
+   "domain": "runs",
+   "n_a": 4,
+   "n_b": 4,
+   "diff": 0.02887840047478818,
+   "ci_lo": 0.0022683446074430874,
+   "ci_hi": 0.05548845634213327,
+   "p_welch": 0.03781539494092812,
+   "img_diff": 0.028878400474786736,
+   "img_lo": 0.02406956100836395,
+   "img_hi": 0.03391644880175585,
+   "p_wilcoxon": 2.3676303230698672e-31,
+   "key": [
+    "runs",
+    "Restormer-LDMH-full",
+    "Restormer-small"
+   ]
+  },
+  {
+   "label": "Restormer-small - full",
+   "a": "Restormer-small",
+   "b": "full",
+   "domain": "runs",
+   "n_a": 4,
+   "n_b": 8,
+   "diff": 0.14946620427071977,
+   "ci_lo": 0.12634506592408867,
+   "ci_hi": 0.17258734261735087,
+   "p_welch": 2.4887348842022684e-07,
+   "img_diff": 0.1494662042707205,
+   "img_lo": 0.13285481140948835,
+   "img_hi": 0.16693261545151472,
+   "p_wilcoxon": 1.0882515141055915e-52,
+   "key": [
+    "runs",
+    "Restormer-small",
+    "full"
+   ]
+  }
+ ],
+ "real_downstream": false,
+ "smoke": false
+}

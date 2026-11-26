@@ -1,0 +1,8 @@
+{
+ "sigmoid_float32_saturation_l": 17.0,
+ "recovery_agreement_mean": 0.7974392361111111,
+ "local_std_baseline_mean": 0.9661675347222223,
+ "recovery_strict_pass": false,
+ "recovery_original_criterion_pass": false,
+ "beta_recovery_pass": true
+}

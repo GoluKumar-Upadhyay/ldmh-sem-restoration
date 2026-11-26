@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Archives and Office documents
+*.zip
+*.doc
+*.docx
+*.docm
+*.odt
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+
+# Datasets and local data caches
+/data/
+/train/
+/Test_NoisyLR/
+/kaggle_upload/
+*.npy
+*.npz
+*.tif
+*.tiff
+*.h5
+*.hdf5
+*.mat
+
+# Keep only the main results folder; ignore other generated results
+/results/
+/results_kaggle/
+/results_pilot/
+
+# Training artifacts
+*.pt
+*.pth
+*.ckpt
+*.log
+tensorboard/
+
+# Model checkpoints are part of the requested main results folder
+!/results_main/**/*.pt
+!/results_main/**/*.pth
+!/results_main/**/*.ckpt
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Web application files
+/Web Application/

@@ -1,0 +1,33 @@
+{
+ "name": "Restormer-LDMH-full",
+ "seed": 0,
+ "best_epoch": 27,
+ "epochs_run": 30,
+ "params": 141110,
+ "val": {
+  "psnr": 27.988453024625777,
+  "ssim": 0.7570833491161466,
+  "hp_err": 0.09950081541610416,
+  "edge_corr": 0.8691072802059352,
+  "edge_f1": 0.6179360887035728,
+  "flat_err": 0.019808431866113096
+ },
+ "test": {
+  "psnr": 27.946837136149405,
+  "ssim": 0.7400656716432422,
+  "hp_err": 0.10413187801314053,
+  "edge_corr": 0.859151044068858,
+  "edge_f1": 0.6087840160354971,
+  "flat_err": 0.022368056717095897
+ },
+ "train_minutes": 26.806339518229166,
+ "device": "cuda",
+ "cfg": {
+  "arch": "ldmh",
+  "film": true,
+  "loss": "mixture",
+  "div": 0.1,
+  "bal": 0.3,
+  "backbone": "restormer"
+ }
+}

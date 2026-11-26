@@ -1,0 +1,16 @@
+{
+ "split": "test",
+ "image": "001003.npy",
+ "checkpoint": "d:\\RESEARCH PAPERS\\Semi_Conductor_2\\Semi conductor image paper\\KowHow\\results_kaggle\\runs\\full\\seed0\\best.pth",
+ "seed": 0,
+ "betas": [
+  0.5040560960769653,
+  1.5525946617126465,
+  2.3803415298461914
+ ],
+ "dominant_fraction": [
+  0.34503173828125,
+  0.55889892578125,
+  0.0960693359375
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "figure": "fig_model_comparison",
+ "generated_by": "master notebook",
+ "epochs": 30,
+ "seeds": [
+  0,
+  1
+ ],
+ "n_pairs": 3200,
+ "models": [
+  "baseline",
+  "global_gc",
+  "film_control",
+  "full"
+ ],
+ "mean_test_psnr": {
+  "baseline": 27.61178395152092,
+  "global_gc": 27.595463751256467,
+  "film_control": 27.684957267343997,
+  "full": 27.786322605609893
+ },
+ "n_seeds": {
+  "baseline": 2,
+  "global_gc": 2,
+  "film_control": 2,
+  "full": 2
+ }
+}

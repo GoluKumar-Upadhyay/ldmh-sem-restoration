@@ -1,0 +1,5863 @@
+{
+ "dataset": {
+  "name": "",
+  "doi": "",
+  "version": "",
+  "url": "",
+  "note": ""
+ },
+ "real_inspection_images": false,
+ "n_images": 150,
+ "n_defects": 447,
+ "defect_types": {
+  "bridge": 158,
+  "void": 156,
+  "particle": 133
+ },
+ "image_size": 256,
+ "degradation": {
+  "looks": 9.259709358215332,
+  "sigma": 0.04252737760543823,
+  "fitted_on": "train pairs"
+ },
+ "detector": {
+  "smooth_sigma": 1.0,
+  "min_area": 6,
+  "k_min": 1.2,
+  "k_max": 12.0,
+  "n_k": 40,
+  "kind": "die-to-die difference, MAD-normalised, smoothed, connected components",
+  "match": "component overlaps defect mask dilated by 2 px"
+ },
+ "far_targets": [
+  0.5,
+  1.0,
+  2.0
+ ],
+ "bootstrap": 1000,
+ "seed": 123,
+ "files": [
+  {
+   "path": "000044.npy",
+   "sha1": "2ed8f74b3fab06b600292749085d2230e2e152d8"
+  },
+  {
+   "path": "000045.npy",
+   "sha1": "a71ae5d62cadcfefc49c28c25f8ef028bd41a7bb"
+  },
+  {
+   "path": "000052.npy",
+   "sha1": "2b5ff028bc6c47ff62821f9e794ca52347aaabb0"
+  },
+  {
+   "path": "000076.npy",
+   "sha1": "0ac710f35d0410c529bba64cef0a0d93f4feafcd"
+  },
+  {
+   "path": "000093.npy",
+   "sha1": "7facb097ee9e7a255cfb7d0304d57660f93b6e22"
+  },
+  {
+   "path": "000102.npy",
+   "sha1": "d9aa41ee7259fc84a23ca14de39d27fb4758ec10"
+  },
+  {
+   "path": "000170.npy",
+   "sha1": "da8b42063b4344b4f586f347dea024a46bc3dba9"
+  },
+  {
+   "path": "000174.npy",
+   "sha1": "5f0e5a7b64a6edb7172f104b8f0c92bbd8f178cf"
+  },
+  {
+   "path": "000175.npy",
+   "sha1": "56628984e174475255e9744a1bdb3e534ff58406"
+  },
+  {
+   "path": "000178.npy",
+   "sha1": "73593c5fb3ec88b482d23533d6eaba48093b5a9c"
+  },
+  {
+   "path": "000184.npy",
+   "sha1": "7dd6309d337970488aa1961a731b92a405da48ba"
+  },
+  {
+   "path": "000188.npy",
+   "sha1": "6674c8b9097b3c03db8e0b84cd43d24e4a59f808"
+  },
+  {
+   "path": "000194.npy",
+   "sha1": "07cd380b4e1288450bf5bb1c24084a0d72fd3bdd"
+  },
+  {
+   "path": "000211.npy",
+   "sha1": "053f45c5fa35a9c9eba48753a4061632f4c3bf5c"
+  },
+  {
+   "path": "000214.npy",
+   "sha1": "6326a68250cb5967343c8a14409c200f0c77bbd2"
+  },
+  {
+   "path": "000218.npy",
+   "sha1": "7b97d2c2f8aed50cf363aa644ea6da1dba58c91c"
+  },
+  {
+   "path": "000229.npy",
+   "sha1": "a60e9a039318f39e2e9ee27689bdc407a6ab6be4"
+  },
+  {
+   "path": "000240.npy",
+   "sha1": "b666d2ca4e36842141634f59d5eee0af8527a7e5"
+  },
+  {
+   "path": "000246.npy",
+   "sha1": "28749ede484950e425acc00af03ea7e321ca60b7"
+  },
+  {
+   "path": "000251.npy",
+   "sha1": "fb9988a1b65ca9435a4e628bb58f86b91e4a1eec"
+  },
+  {
+   "path": "000254.npy",
+   "sha1": "375e2e8240b63dacb5ffca779b8df59cc1abbe47"
+  },
+  {
+   "path": "000256.npy",
+   "sha1": "8c35c42632e36f82728200be9195678a4b4fefab"
+  },
+  {
+   "path": "000289.npy",
+   "sha1": "0eb57c01a635597d418b1cdc51d20dd1effff9cd"
+  },
+  {
+   "path": "000291.npy",
+   "sha1": "8a46cb952a7b62e1f9f7a29b557e4adee28d4f62"
+  },
+  {
+   "path": "000322.npy",
+   "sha1": "ef6f433fce6e52fc0815bedd1735f85b0296d240"
+  },
+  {
+   "path": "000324.npy",
+   "sha1": "ea88db1e6c5cd8e77e65ff341b80e9c8ea643f9a"
+  },
+  {
+   "path": "000346.npy",
+   "sha1": "0611c33e411a0e5544f11db4c375cc2f25980988"
+  },
+  {
+   "path": "000354.npy",
+   "sha1": "d764fcbcc3f9fb4201a7c5b43b7123e3ed395f6b"
+  },
+  {
+   "path": "000368.npy",
+   "sha1": "62d6ae8d43cf2bb822ecebe73507ec0d05fa721a"
+  },
+  {
+   "path": "000387.npy",
+   "sha1": "8153d91c457c9aeb4d2815881f8f80e645f84526"
+  },
+  {
+   "path": "000432.npy",
+   "sha1": "fd792306ea9a5b205fe8fb1af61c5883aa2ae4ea"
+  },
+  {
+   "path": "000479.npy",
+   "sha1": "3e4bac183a5ba96e905f2506977a9f37cf827a7c"
+  },
+  {
+   "path": "000501.npy",
+   "sha1": "1e6e70e9c63d54743376bdd7de3654a29a5f9341"
+  },
+  {
+   "path": "000507.npy",
+   "sha1": "3da2ece0ad7bd6af2ba4edd3439425770f8b9f6f"
+  },
+  {
+   "path": "000511.npy",
+   "sha1": "849a8a0f9428af44f38439abb85c663c9b54277e"
+  },
+  {
+   "path": "000538.npy",
+   "sha1": "79dc3a284619bc1dfdf0a24a812817856b222a10"
+  },
+  {
+   "path": "000564.npy",
+   "sha1": "474725ce8893805fe90e839ad08645117612bd61"
+  },
+  {
+   "path": "000567.npy",
+   "sha1": "2851b85556b985ac2b7924ec49a2727592d86c65"
+  },
+  {
+   "path": "000572.npy",
+   "sha1": "a6920a78f5976cbdb21ab84f37b207dd51a360c5"
+  },
+  {
+   "path": "000582.npy",
+   "sha1": "f9c3db6fda1bb724ee3d7cdabfc287adefe063e1"
+  },
+  {
+   "path": "000594.npy",
+   "sha1": "e5de109897257e1a81371112b3db67d95bd5c9d9"
+  },
+  {
+   "path": "000621.npy",
+   "sha1": "ff8d4156e06ad45e17dc1cdc6f2ecc56faa2c722"
+  },
+  {
+   "path": "000678.npy",
+   "sha1": "54f3453a848eb0c241274dee3941c9e5b18d96f6"
+  },
+  {
+   "path": "000680.npy",
+   "sha1": "10abc749316fa1a00b9f7b5603e9d888528b8df3"
+  },
+  {
+   "path": "000685.npy",
+   "sha1": "038a1ed2be7fa60c367fd7dbbd15d8f096eedd77"
+  },
+  {
+   "path": "000705.npy",
+   "sha1": "bf10ed9cb7ec024673530cde142414d909847cc7"
+  },
+  {
+   "path": "000727.npy",
+   "sha1": "d4e03fbd41b143786e51c2029aa54963d691945b"
+  },
+  {
+   "path": "000794.npy",
+   "sha1": "aa3037a030526d34ab5b114104ff4f28a0ca51fb"
+  },
+  {
+   "path": "000810.npy",
+   "sha1": "51c8f82b8d23ed60d611f72bad0bc118ce506ef5"
+  },
+  {
+   "path": "000867.npy",
+   "sha1": "a570a1d82ce718648e28d4e12d52f9a19db75a38"
+  },
+  {
+   "path": "000887.npy",
+   "sha1": "70a750a72aae53c95c3a64a335c02fb9e6ea2999"
+  },
+  {
+   "path": "000929.npy",
+   "sha1": "9c4a159632fc9fd9fa9345e753117a39f80a23dc"
+  },
+  {
+   "path": "000944.npy",
+   "sha1": "3d1804928a5dce32b324baea63e3c4294695bdb4"
+  },
+  {
+   "path": "000945.npy",
+   "sha1": "2c0d29fd383ba448649aece51cc9c06e59281b15"
+  },
+  {
+   "path": "000962.npy",
+   "sha1": "d2c293cd22562ffdf226004eca93ac479d4f5b4a"
+  },
+  {
+   "path": "001022.npy",
+   "sha1": "a55838fb454ccb4de61aebc1ede46188d689831b"
+  },
+  {
+   "path": "001091.npy",
+   "sha1": "7ecd786ceac89aca1751d89771596471ea15a291"
+  },
+  {
+   "path": "001094.npy",
+   "sha1": "eaee93ce528cd3a4ce871208f85d22c88267a548"
+  },
+  {
+   "path": "001114.npy",
+   "sha1": "9f9306cb73835f6aa6638c0d362e86dea860c8e9"
+  },
+  {
+   "path": "001127.npy",
+   "sha1": "96b09aa5b6400cb6ba0e363ba7611ca03806b35b"
+  },
+  {
+   "path": "001151.npy",
+   "sha1": "c9d999533a71af3bef4bc18aeb245bd2ec03350f"
+  },
+  {
+   "path": "001221.npy",
+   "sha1": "49343436de9888b6e367f3a742d92a2b0da97e9e"
+  },
+  {
+   "path": "001233.npy",
+   "sha1": "22065c94b2a8b4e234db11a6e6cbfc1338b84722"
+  },
+  {
+   "path": "001264.npy",
+   "sha1": "dfa58e074177db212304d8cee39c1cdc777ab946"
+  },
+  {
+   "path": "001271.npy",
+   "sha1": "d7f5f4839f5973ea342b3e70c049e6a58340abd0"
+  },
+  {
+   "path": "001278.npy",
+   "sha1": "61ab4558b8c927abfc9a93470b94db5562a8c5e3"
+  },
+  {
+   "path": "001298.npy",
+   "sha1": "bc8128f2fae5a4e4aa5ca2dbf589a6930b93576c"
+  },
+  {
+   "path": "001317.npy",
+   "sha1": "8aa2ecadf2b9f2c821067e438f1aaf421dbca2ab"
+  },
+  {
+   "path": "001344.npy",
+   "sha1": "1614ae70fd89d861f8e6ec13275796293ea5ffa2"
+  },
+  {
+   "path": "001359.npy",
+   "sha1": "da11d687d46bce6f929c4d7f0b3e7b718bea7e82"
+  },
+  {
+   "path": "001399.npy",
+   "sha1": "c57e8a54e8763ffb4d6abf4337f5f1a7e75808b4"
+  },
+  {
+   "path": "001421.npy",
+   "sha1": "0b8db4b16ef4a37a323d86490675f5f077e617ad"
+  },
+  {
+   "path": "001425.npy",
+   "sha1": "1dd22ae164e4902a42cc4d53a4230fd8826d0853"
+  },
+  {
+   "path": "001426.npy",
+   "sha1": "81785e3231792f1f7153dc8bd228dd6902504405"
+  },
+  {
+   "path": "001427.npy",
+   "sha1": "3fd877af95b7158f9b1f3698a87b03763c19e502"
+  },
+  {
+   "path": "001446.npy",
+   "sha1": "e8068843f575c0757cde30980320e1d4ccff045e"
+  },
+  {
+   "path": "001447.npy",
+   "sha1": "421e9a35a1e82a7511e29cf00b638a101c2f4850"
+  },
+  {
+   "path": "001457.npy",
+   "sha1": "f46b9ee7e2f0485fe1cd3ff1b492098a6eec1bd1"
+  },
+  {
+   "path": "001474.npy",
+   "sha1": "79353e2f81ae485c0886e4284d550cfc38744345"
+  },
+  {
+   "path": "001487.npy",
+   "sha1": "3e20bcd8dbbc6cb4369b7665fd109da824bec65b"
+  },
+  {
+   "path": "001502.npy",
+   "sha1": "ea533887d34ffd5e8417be3d29e7321047dee65a"
+  },
+  {
+   "path": "001507.npy",
+   "sha1": "bb92c59ca1e91570584bf1b5ed45aaf3302acf6e"
+  },
+  {
+   "path": "001538.npy",
+   "sha1": "a725a3ed5662f543be73c26a5edc083709bb4263"
+  },
+  {
+   "path": "001562.npy",
+   "sha1": "4319069a22cf6bdd98cd8e4d3f8c61c947839a3b"
+  },
+  {
+   "path": "001566.npy",
+   "sha1": "b59d755191c0889d02607dc7b59bbc4e8e79a10e"
+  },
+  {
+   "path": "001575.npy",
+   "sha1": "999f6d5c017e49e48612442b5592b37aba19a5ef"
+  },
+  {
+   "path": "001660.npy",
+   "sha1": "390d2a4e7ca17104ee0255075fb936a4e9668f1e"
+  },
+  {
+   "path": "001662.npy",
+   "sha1": "d4359116fdaff59d7069c1c02acf49f429cac1ef"
+  },
+  {
+   "path": "001697.npy",
+   "sha1": "f34ef270cc4ea9f4d59ac3b07a94c116a5fcd304"
+  },
+  {
+   "path": "001706.npy",
+   "sha1": "8feb1f25c9c056df32ac16c9e2385ec84a3fa781"
+  },
+  {
+   "path": "001723.npy",
+   "sha1": "5c152f1bc06fa45a74e390bc3bf8469830f8f13d"
+  },
+  {
+   "path": "001729.npy",
+   "sha1": "c5065a5253f3ff9fdf14374746c525dd55d5673b"
+  },
+  {
+   "path": "001744.npy",
+   "sha1": "2184e9af5a23f98b1b2c158fc95f01b5056296a8"
+  },
+  {
+   "path": "001766.npy",
+   "sha1": "40a24d8599cd08d123b3798705ee3a1fdccc4246"
+  },
+  {
+   "path": "001767.npy",
+   "sha1": "7b73207405e0c06bd07993ed5391af3972bb105c"
+  },
+  {
+   "path": "001788.npy",
+   "sha1": "d654f444529094fb3199021efa12388473787fb5"
+  },
+  {
+   "path": "001800.npy",
+   "sha1": "8fd7fb91b5705c2d2695de8a71b691d37c6d8cb2"
+  },
+  {
+   "path": "001803.npy",
+   "sha1": "be96fc489007eeebf7e01e20912158fb10b3f55e"
+  },
+  {
+   "path": "001867.npy",
+   "sha1": "01e1766081dd3a39e61fbf188d20ed4165ee1f51"
+  },
+  {
+   "path": "001933.npy",
+   "sha1": "477d6256e5eaf221b6e43c7661c3c18dce8e4d4d"
+  },
+  {
+   "path": "001948.npy",
+   "sha1": "d3d5997ceca8477d5b3b8096856b08e57a1f71f6"
+  },
+  {
+   "path": "001978.npy",
+   "sha1": "df959a210239f145aab6db278ed1e65421b3e3ce"
+  },
+  {
+   "path": "001991.npy",
+   "sha1": "665d5168dcc9a67c245bf67a59c190b033e3fefa"
+  },
+  {
+   "path": "002023.npy",
+   "sha1": "bce07a5ad623f87536ca1c7473f9f2f7cf645c5a"
+  },
+  {
+   "path": "002069.npy",
+   "sha1": "f49999053a69492b103de4b72a0064683500466c"
+  },
+  {
+   "path": "002134.npy",
+   "sha1": "ab34192134a34d7c0d27b9a6c7c5c0bda0594f5d"
+  },
+  {
+   "path": "002154.npy",
+   "sha1": "86d33055d20592df7f2a7a1c7337723d255ea258"
+  },
+  {
+   "path": "002166.npy",
+   "sha1": "f8d60dd5ce5f28b22813d5a8a8649fba81b75924"
+  },
+  {
+   "path": "002185.npy",
+   "sha1": "b571d54d47176150303b40141b4e0f0a10af69d3"
+  },
+  {
+   "path": "002188.npy",
+   "sha1": "9e787b306fff3f9eaf5864ba48597aaaa6db9888"
+  },
+  {
+   "path": "002210.npy",
+   "sha1": "1f4c6151d57e09a4af94811004aae259e023732c"
+  },
+  {
+   "path": "002222.npy",
+   "sha1": "8abd3279f3312f141b0ed3b1ddcf414b563bc8d9"
+  },
+  {
+   "path": "002228.npy",
+   "sha1": "474c5bba06ffd9b68265b0ddd489686f5d8fcd28"
+  },
+  {
+   "path": "002247.npy",
+   "sha1": "20ea76ce0fd9c7f3ebf82ecf4a3defd414f5b09d"
+  },
+  {
+   "path": "002252.npy",
+   "sha1": "88a1da1f12a3f31a47d429f56696bf42012d0cb5"
+  },
+  {
+   "path": "002262.npy",
+   "sha1": "2fc81543a8bf967054e86c997014e1af47d5e441"
+  },
+  {
+   "path": "002281.npy",
+   "sha1": "71235865d60e99b93c878f25d128b2bc6cb8c039"
+  },
+  {
+   "path": "002323.npy",
+   "sha1": "09d8dbd04b3ae59ad5b9568535d53a4aedda13d5"
+  },
+  {
+   "path": "002325.npy",
+   "sha1": "1070816874e2881064e1c018b09e4208eb5edb45"
+  },
+  {
+   "path": "002338.npy",
+   "sha1": "8a10edfb195e6442dfbfddf038f3014dcc01f0ec"
+  },
+  {
+   "path": "002360.npy",
+   "sha1": "cd729edaa03dd091e1a847c0b3b9fcfc1d7aed80"
+  },
+  {
+   "path": "002378.npy",
+   "sha1": "a2de87eb8a1722dfed0aec5ea7518e83fd967071"
+  },
+  {
+   "path": "002380.npy",
+   "sha1": "d10ab1e52495b859ae16094f6119312a727bf113"
+  },
+  {
+   "path": "002464.npy",
+   "sha1": "8b57ed705800d186ffb8a36207a3dd15303831d6"
+  },
+  {
+   "path": "002467.npy",
+   "sha1": "b25c40d9ed2967b6b58685dede6184e8ff8c1e3b"
+  },
+  {
+   "path": "002538.npy",
+   "sha1": "a495c8a6826138dfaa2ee002e26f7f18f0b59c6f"
+  },
+  {
+   "path": "002606.npy",
+   "sha1": "e0fb7d68c58fc5a4f76ad2864284a04b70f68e80"
+  },
+  {
+   "path": "002620.npy",
+   "sha1": "2d31559f0c60457e114d5b21306dc8d988db7fb4"
+  },
+  {
+   "path": "002656.npy",
+   "sha1": "c031ed042d2229651420f251ed0e090e127c4a24"
+  },
+  {
+   "path": "002698.npy",
+   "sha1": "303b5d84c6ab464d5342d9e685217d811632f24d"
+  },
+  {
+   "path": "002714.npy",
+   "sha1": "c9f07f4d6f7add56d2b085d58879a379847f3929"
+  },
+  {
+   "path": "002766.npy",
+   "sha1": "23dcc81c8607fc5b68837200b3c8a1aebfd9856e"
+  },
+  {
+   "path": "002808.npy",
+   "sha1": "83087b801c8be89b2fa2a2a78d272ee7b15e9234"
+  },
+  {
+   "path": "002813.npy",
+   "sha1": "860861ee7b8b214f941023e3f893f94654bcb46e"
+  },
+  {
+   "path": "002822.npy",
+   "sha1": "cdbd3fa61d98f77ec98ff00b9fca7fbd1b11a267"
+  },
+  {
+   "path": "002851.npy",
+   "sha1": "6d942fdb12632e65e170a869c0a5e042bb549dd6"
+  },
+  {
+   "path": "002852.npy",
+   "sha1": "e019c88f9139f2b7590348fa920caf6ca22c2203"
+  },
+  {
+   "path": "002905.npy",
+   "sha1": "6073d43df4637b3021da567dd9811d358f9bdcc9"
+  },
+  {
+   "path": "002921.npy",
+   "sha1": "c75b9c3ab63c649261221c0a52b7317931c4cd9a"
+  },
+  {
+   "path": "002928.npy",
+   "sha1": "edff58a8fc3322cca5352066ddfd5a4a08331dbe"
+  },
+  {
+   "path": "002953.npy",
+   "sha1": "bd11f6d8e2dabf3365605bcd9dae3859ffea1352"
+  },
+  {
+   "path": "002979.npy",
+   "sha1": "8a56871731b6414d05f2dcca084c1e4101b552dd"
+  },
+  {
+   "path": "003000.npy",
+   "sha1": "6420408320516fe08a2e8af1b4ec858bdde09b58"
+  },
+  {
+   "path": "003027.npy",
+   "sha1": "efc1433fa4ea9ddd0fbb980e9a92591e5d0f355c"
+  },
+  {
+   "path": "003043.npy",
+   "sha1": "60a82d0325914c9fb14aeb3885c4b1ac909065fc"
+  },
+  {
+   "path": "003054.npy",
+   "sha1": "24854c63741b28ed0a7ab3578ff563ca0885125c"
+  },
+  {
+   "path": "003067.npy",
+   "sha1": "89a4ee9e9dd496689866c55a6c42581ad924fbfd"
+  },
+  {
+   "path": "003098.npy",
+   "sha1": "883e3005f7b9a054a572d89e1600672c4f0bedcb"
+  },
+  {
+   "path": "003128.npy",
+   "sha1": "2ccd9b20cca5f617f5930fd01e7084a3cd4c57f0"
+  },
+  {
+   "path": "003189.npy",
+   "sha1": "d3c8ef5885c1d672f3a2bdf1b5558270dac2a2a7"
+  }
+ ],
+ "defects": [
+  {
+   "image": "000044.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      142,
+      82
+     ],
+     "sign": 1,
+     "amp": 0.23462129202489218,
+     "area": 41
+    },
+    {
+     "kind": "void",
+     "center": [
+      112,
+      129
+     ],
+     "sign": -1,
+     "amp": 0.2284235036388301,
+     "area": 97
+    },
+    {
+     "kind": "void",
+     "center": [
+      127,
+      169
+     ],
+     "sign": -1,
+     "amp": 0.16193557932191366,
+     "area": 89
+    },
+    {
+     "kind": "particle",
+     "center": [
+      224,
+      84
+     ],
+     "sign": -1,
+     "amp": 0.2563655174193732,
+     "area": 121
+    }
+   ]
+  },
+  {
+   "image": "000045.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      192,
+      151
+     ],
+     "sign": 1,
+     "amp": 0.21459178277063562,
+     "area": 67
+    },
+    {
+     "kind": "void",
+     "center": [
+      110,
+      171
+     ],
+     "sign": -1,
+     "amp": 0.3475990573033334,
+     "area": 57
+    }
+   ]
+  },
+  {
+   "image": "000052.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      80,
+      91
+     ],
+     "sign": 1,
+     "amp": 0.21245224459449305,
+     "area": 49
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      174,
+      196
+     ],
+     "sign": 1,
+     "amp": 0.21345709636406418,
+     "area": 57
+    },
+    {
+     "kind": "particle",
+     "center": [
+      119,
+      219
+     ],
+     "sign": -1,
+     "amp": 0.25389702385196183,
+     "area": 99
+    },
+    {
+     "kind": "particle",
+     "center": [
+      72,
+      65
+     ],
+     "sign": 1,
+     "amp": 0.21855276675486168,
+     "area": 143
+    }
+   ]
+  },
+  {
+   "image": "000076.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      102,
+      19
+     ],
+     "sign": 1,
+     "amp": 0.2036562615423449,
+     "area": 55
+    },
+    {
+     "kind": "particle",
+     "center": [
+      238,
+      22
+     ],
+     "sign": 1,
+     "amp": 0.18884459211575416,
+     "area": 59
+    }
+   ]
+  },
+  {
+   "image": "000093.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      205,
+      126
+     ],
+     "sign": 1,
+     "amp": 0.24540951191549282,
+     "area": 45
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      120,
+      125
+     ],
+     "sign": 1,
+     "amp": 0.21375328527637527,
+     "area": 25
+    },
+    {
+     "kind": "particle",
+     "center": [
+      179,
+      173
+     ],
+     "sign": 1,
+     "amp": 0.22147951333663524,
+     "area": 71
+    },
+    {
+     "kind": "particle",
+     "center": [
+      220,
+      83
+     ],
+     "sign": 1,
+     "amp": 0.2776045035757837,
+     "area": 123
+    }
+   ]
+  },
+  {
+   "image": "000102.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      135,
+      137
+     ],
+     "sign": 1,
+     "amp": 0.15588474671039662,
+     "area": 75
+    },
+    {
+     "kind": "void",
+     "center": [
+      150,
+      81
+     ],
+     "sign": -1,
+     "amp": 0.2143961212936616,
+     "area": 45
+    }
+   ]
+  },
+  {
+   "image": "000170.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      220,
+      169
+     ],
+     "sign": 1,
+     "amp": 0.31182533555368286,
+     "area": 163
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      222,
+      200
+     ],
+     "sign": 1,
+     "amp": 0.26571029362176657,
+     "area": 59
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      113,
+      66
+     ],
+     "sign": 1,
+     "amp": 0.2582188089079997,
+     "area": 81
+    },
+    {
+     "kind": "void",
+     "center": [
+      198,
+      89
+     ],
+     "sign": -1,
+     "amp": 0.2015084128308166,
+     "area": 193
+    }
+   ]
+  },
+  {
+   "image": "000174.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      219,
+      154
+     ],
+     "sign": -1,
+     "amp": 0.3231728916606529,
+     "area": 177
+    },
+    {
+     "kind": "void",
+     "center": [
+      19,
+      115
+     ],
+     "sign": 1,
+     "amp": 0.19090857190928553,
+     "area": 89
+    },
+    {
+     "kind": "particle",
+     "center": [
+      72,
+      231
+     ],
+     "sign": -1,
+     "amp": 0.26380074628603906,
+     "area": 41
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      177,
+      85
+     ],
+     "sign": 1,
+     "amp": 0.20116858607417842,
+     "area": 51
+    }
+   ]
+  },
+  {
+   "image": "000175.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      53,
+      65
+     ],
+     "sign": 1,
+     "amp": 0.17227843432154313,
+     "area": 129
+    },
+    {
+     "kind": "void",
+     "center": [
+      210,
+      61
+     ],
+     "sign": -1,
+     "amp": 0.23067096388388852,
+     "area": 97
+    }
+   ]
+  },
+  {
+   "image": "000178.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      23,
+      214
+     ],
+     "sign": 1,
+     "amp": 0.21741327668952198,
+     "area": 35
+    },
+    {
+     "kind": "particle",
+     "center": [
+      84,
+      231
+     ],
+     "sign": -1,
+     "amp": 0.3143008226401116,
+     "area": 93
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      143,
+      124
+     ],
+     "sign": 1,
+     "amp": 0.23486137221619835,
+     "area": 21
+    }
+   ]
+  },
+  {
+   "image": "000184.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      133,
+      96
+     ],
+     "sign": -1,
+     "amp": 0.3182556435576474,
+     "area": 105
+    },
+    {
+     "kind": "void",
+     "center": [
+      100,
+      234
+     ],
+     "sign": -1,
+     "amp": 0.19121914548905483,
+     "area": 109
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      114,
+      122
+     ],
+     "sign": 1,
+     "amp": 0.15643958698758478,
+     "area": 37
+    },
+    {
+     "kind": "particle",
+     "center": [
+      196,
+      161
+     ],
+     "sign": 1,
+     "amp": 0.2806729742706081,
+     "area": 199
+    }
+   ]
+  },
+  {
+   "image": "000188.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      87,
+      55
+     ],
+     "sign": 1,
+     "amp": 0.21079281970833846,
+     "area": 177
+    },
+    {
+     "kind": "void",
+     "center": [
+      45,
+      35
+     ],
+     "sign": 1,
+     "amp": 0.30845986036891815,
+     "area": 37
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      179,
+      93
+     ],
+     "sign": 1,
+     "amp": 0.31132075217608934,
+     "area": 51
+    }
+   ]
+  },
+  {
+   "image": "000194.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      46,
+      199
+     ],
+     "sign": 1,
+     "amp": 0.19731996234110386,
+     "area": 151
+    },
+    {
+     "kind": "void",
+     "center": [
+      181,
+      30
+     ],
+     "sign": 1,
+     "amp": 0.24273054497710317,
+     "area": 37
+    },
+    {
+     "kind": "void",
+     "center": [
+      77,
+      140
+     ],
+     "sign": 1,
+     "amp": 0.19764998114248233,
+     "area": 37
+    }
+   ]
+  },
+  {
+   "image": "000211.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      116,
+      234
+     ],
+     "sign": -1,
+     "amp": 0.21799403426137892,
+     "area": 69
+    },
+    {
+     "kind": "void",
+     "center": [
+      67,
+      113
+     ],
+     "sign": -1,
+     "amp": 0.17344136757390116,
+     "area": 101
+    },
+    {
+     "kind": "void",
+     "center": [
+      93,
+      110
+     ],
+     "sign": -1,
+     "amp": 0.16940763172777223,
+     "area": 69
+    },
+    {
+     "kind": "void",
+     "center": [
+      30,
+      18
+     ],
+     "sign": -1,
+     "amp": 0.30976926624261236,
+     "area": 145
+    }
+   ]
+  },
+  {
+   "image": "000214.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      199,
+      137
+     ],
+     "sign": -1,
+     "amp": 0.23210395708278556,
+     "area": 137
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      235,
+      95
+     ],
+     "sign": 1,
+     "amp": 0.20338116295822695,
+     "area": 75
+    }
+   ]
+  },
+  {
+   "image": "000218.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      151,
+      93
+     ],
+     "sign": 1,
+     "amp": 0.2248584364690896,
+     "area": 57
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      32,
+      234
+     ],
+     "sign": 1,
+     "amp": 0.20624695629058168,
+     "area": 35
+    }
+   ]
+  },
+  {
+   "image": "000229.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      105,
+      46
+     ],
+     "sign": 1,
+     "amp": 0.2372214679317958,
+     "area": 101
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      204,
+      44
+     ],
+     "sign": 1,
+     "amp": 0.24540004548007613,
+     "area": 75
+    }
+   ]
+  },
+  {
+   "image": "000240.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      220,
+      146
+     ],
+     "sign": 1,
+     "amp": 0.23596266757731638,
+     "area": 79
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      207,
+      213
+     ],
+     "sign": 1,
+     "amp": 0.31654323945664253,
+     "area": 55
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      195,
+      38
+     ],
+     "sign": 1,
+     "amp": 0.1660865545388125,
+     "area": 57
+    }
+   ]
+  },
+  {
+   "image": "000246.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      107,
+      130
+     ],
+     "sign": -1,
+     "amp": 0.2930513613940823,
+     "area": 69
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      138,
+      164
+     ],
+     "sign": 1,
+     "amp": 0.23372537179600517,
+     "area": 63
+    },
+    {
+     "kind": "void",
+     "center": [
+      24,
+      170
+     ],
+     "sign": -1,
+     "amp": 0.32783972107773235,
+     "area": 29
+    },
+    {
+     "kind": "particle",
+     "center": [
+      19,
+      55
+     ],
+     "sign": -1,
+     "amp": 0.16886415489329565,
+     "area": 57
+    }
+   ]
+  },
+  {
+   "image": "000251.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      48,
+      206
+     ],
+     "sign": 1,
+     "amp": 0.2526978699925929,
+     "area": 81
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      88,
+      16
+     ],
+     "sign": 1,
+     "amp": 0.23008242212950747,
+     "area": 63
+    },
+    {
+     "kind": "particle",
+     "center": [
+      168,
+      35
+     ],
+     "sign": 1,
+     "amp": 0.2769276140516095,
+     "area": 69
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      58,
+      31
+     ],
+     "sign": 1,
+     "amp": 0.2521184791640242,
+     "area": 67
+    }
+   ]
+  },
+  {
+   "image": "000254.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      42,
+      215
+     ],
+     "sign": -1,
+     "amp": 0.22283748995128938,
+     "area": 113
+    },
+    {
+     "kind": "void",
+     "center": [
+      196,
+      61
+     ],
+     "sign": -1,
+     "amp": 0.19310108945513194,
+     "area": 129
+    }
+   ]
+  },
+  {
+   "image": "000256.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      158,
+      164
+     ],
+     "sign": 1,
+     "amp": 0.1668776868464531,
+     "area": 63
+    },
+    {
+     "kind": "particle",
+     "center": [
+      38,
+      48
+     ],
+     "sign": -1,
+     "amp": 0.1864999664136383,
+     "area": 105
+    },
+    {
+     "kind": "void",
+     "center": [
+      117,
+      195
+     ],
+     "sign": -1,
+     "amp": 0.19749564399765318,
+     "area": 145
+    }
+   ]
+  },
+  {
+   "image": "000289.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      165,
+      100
+     ],
+     "sign": -1,
+     "amp": 0.22211300761148944,
+     "area": 89
+    },
+    {
+     "kind": "void",
+     "center": [
+      228,
+      120
+     ],
+     "sign": -1,
+     "amp": 0.2850070253818744,
+     "area": 149
+    },
+    {
+     "kind": "particle",
+     "center": [
+      138,
+      152
+     ],
+     "sign": -1,
+     "amp": 0.20403525348606674,
+     "area": 121
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      48,
+      203
+     ],
+     "sign": 1,
+     "amp": 0.3461004740838268,
+     "area": 37
+    }
+   ]
+  },
+  {
+   "image": "000291.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      212,
+      176
+     ],
+     "sign": 1,
+     "amp": 0.2914230120535352,
+     "area": 109
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      126,
+      199
+     ],
+     "sign": 1,
+     "amp": 0.24316715292203356,
+     "area": 63
+    }
+   ]
+  },
+  {
+   "image": "000322.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      38,
+      185
+     ],
+     "sign": 1,
+     "amp": 0.22236345310627167,
+     "area": 43
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      173,
+      214
+     ],
+     "sign": 1,
+     "amp": 0.28603141206946064,
+     "area": 65
+    },
+    {
+     "kind": "particle",
+     "center": [
+      211,
+      197
+     ],
+     "sign": -1,
+     "amp": 0.2014696211481142,
+     "area": 81
+    },
+    {
+     "kind": "particle",
+     "center": [
+      138,
+      35
+     ],
+     "sign": -1,
+     "amp": 0.22439835658485588,
+     "area": 147
+    }
+   ]
+  },
+  {
+   "image": "000324.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      18,
+      179
+     ],
+     "sign": 1,
+     "amp": 0.17782150584978987,
+     "area": 31
+    },
+    {
+     "kind": "particle",
+     "center": [
+      62,
+      25
+     ],
+     "sign": -1,
+     "amp": 0.3386401116954305,
+     "area": 135
+    }
+   ]
+  },
+  {
+   "image": "000346.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      18,
+      23
+     ],
+     "sign": 1,
+     "amp": 0.22502182961950373,
+     "area": 105
+    },
+    {
+     "kind": "void",
+     "center": [
+      192,
+      95
+     ],
+     "sign": 1,
+     "amp": 0.1993774730458556,
+     "area": 97
+    }
+   ]
+  },
+  {
+   "image": "000354.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      44,
+      202
+     ],
+     "sign": 1,
+     "amp": 0.20131304220077176,
+     "area": 45
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      125,
+      190
+     ],
+     "sign": 1,
+     "amp": 0.2603076100926095,
+     "area": 77
+    },
+    {
+     "kind": "void",
+     "center": [
+      190,
+      30
+     ],
+     "sign": -1,
+     "amp": 0.27968994238180955,
+     "area": 37
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      123,
+      49
+     ],
+     "sign": 1,
+     "amp": 0.2728073077367471,
+     "area": 77
+    }
+   ]
+  },
+  {
+   "image": "000368.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      172,
+      17
+     ],
+     "sign": -1,
+     "amp": 0.187180794775608,
+     "area": 29
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      113,
+      45
+     ],
+     "sign": 1,
+     "amp": 0.2989230924313462,
+     "area": 95
+    }
+   ]
+  },
+  {
+   "image": "000387.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      139,
+      230
+     ],
+     "sign": 1,
+     "amp": 0.3049555887366032,
+     "area": 87
+    },
+    {
+     "kind": "particle",
+     "center": [
+      31,
+      111
+     ],
+     "sign": 1,
+     "amp": 0.3461132888546299,
+     "area": 151
+    },
+    {
+     "kind": "void",
+     "center": [
+      167,
+      85
+     ],
+     "sign": -1,
+     "amp": 0.21199753492707615,
+     "area": 145
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      232,
+      29
+     ],
+     "sign": 1,
+     "amp": 0.27539168469268505,
+     "area": 81
+    }
+   ]
+  },
+  {
+   "image": "000432.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      123,
+      171
+     ],
+     "sign": 1,
+     "amp": 0.27320129551332933,
+     "area": 123
+    },
+    {
+     "kind": "void",
+     "center": [
+      91,
+      106
+     ],
+     "sign": 1,
+     "amp": 0.20590081533144902,
+     "area": 69
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      207,
+      153
+     ],
+     "sign": 1,
+     "amp": 0.25497324429058155,
+     "area": 71
+    }
+   ]
+  },
+  {
+   "image": "000479.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      48,
+      16
+     ],
+     "sign": 1,
+     "amp": 0.32238241908635396,
+     "area": 155
+    },
+    {
+     "kind": "particle",
+     "center": [
+      230,
+      159
+     ],
+     "sign": 1,
+     "amp": 0.3298815774433041,
+     "area": 147
+    },
+    {
+     "kind": "particle",
+     "center": [
+      176,
+      239
+     ],
+     "sign": 1,
+     "amp": 0.3269131373763767,
+     "area": 77
+    }
+   ]
+  },
+  {
+   "image": "000501.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      233,
+      26
+     ],
+     "sign": 1,
+     "amp": 0.3091209177281654,
+     "area": 29
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      70,
+      202
+     ],
+     "sign": 1,
+     "amp": 0.23659386615668548,
+     "area": 35
+    }
+   ]
+  },
+  {
+   "image": "000507.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      50,
+      44
+     ],
+     "sign": -1,
+     "amp": 0.1768397792522788,
+     "area": 69
+    },
+    {
+     "kind": "void",
+     "center": [
+      196,
+      191
+     ],
+     "sign": -1,
+     "amp": 0.2966255790805163,
+     "area": 149
+    }
+   ]
+  },
+  {
+   "image": "000511.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      84,
+      43
+     ],
+     "sign": 1,
+     "amp": 0.30853027214529494,
+     "area": 41
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      194,
+      65
+     ],
+     "sign": 1,
+     "amp": 0.2695069767917864,
+     "area": 91
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      58,
+      68
+     ],
+     "sign": 1,
+     "amp": 0.15638359752115027,
+     "area": 61
+    }
+   ]
+  },
+  {
+   "image": "000538.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      113,
+      55
+     ],
+     "sign": 1,
+     "amp": 0.33775776543793334,
+     "area": 55
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      109,
+      123
+     ],
+     "sign": 1,
+     "amp": 0.24509355749822326,
+     "area": 39
+    }
+   ]
+  },
+  {
+   "image": "000564.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      46,
+      65
+     ],
+     "sign": 1,
+     "amp": 0.18240016816239213,
+     "area": 95
+    },
+    {
+     "kind": "void",
+     "center": [
+      55,
+      139
+     ],
+     "sign": -1,
+     "amp": 0.19865616996840071,
+     "area": 45
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      68,
+      228
+     ],
+     "sign": 1,
+     "amp": 0.21539363716459292,
+     "area": 61
+    },
+    {
+     "kind": "void",
+     "center": [
+      224,
+      71
+     ],
+     "sign": -1,
+     "amp": 0.25371306144455835,
+     "area": 45
+    }
+   ]
+  },
+  {
+   "image": "000567.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      202,
+      71
+     ],
+     "sign": -1,
+     "amp": 0.2172459789535308,
+     "area": 137
+    },
+    {
+     "kind": "void",
+     "center": [
+      133,
+      27
+     ],
+     "sign": -1,
+     "amp": 0.16963679972429338,
+     "area": 45
+    },
+    {
+     "kind": "void",
+     "center": [
+      86,
+      238
+     ],
+     "sign": -1,
+     "amp": 0.32837359013705175,
+     "area": 37
+    },
+    {
+     "kind": "void",
+     "center": [
+      170,
+      196
+     ],
+     "sign": -1,
+     "amp": 0.1991327322333899,
+     "area": 89
+    }
+   ]
+  },
+  {
+   "image": "000572.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      140,
+      53
+     ],
+     "sign": -1,
+     "amp": 0.3117252229451001,
+     "area": 187
+    },
+    {
+     "kind": "void",
+     "center": [
+      124,
+      149
+     ],
+     "sign": -1,
+     "amp": 0.3120629690520895,
+     "area": 145
+    },
+    {
+     "kind": "particle",
+     "center": [
+      180,
+      217
+     ],
+     "sign": 1,
+     "amp": 0.343472377128536,
+     "area": 189
+    },
+    {
+     "kind": "void",
+     "center": [
+      81,
+      53
+     ],
+     "sign": -1,
+     "amp": 0.3213960480163358,
+     "area": 137
+    }
+   ]
+  },
+  {
+   "image": "000582.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      203,
+      96
+     ],
+     "sign": 1,
+     "amp": 0.2638610890031654,
+     "area": 49
+    },
+    {
+     "kind": "void",
+     "center": [
+      122,
+      190
+     ],
+     "sign": 1,
+     "amp": 0.2918140298731059,
+     "area": 45
+    }
+   ]
+  },
+  {
+   "image": "000594.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      162,
+      43
+     ],
+     "sign": -1,
+     "amp": 0.20286559586241157,
+     "area": 89
+    },
+    {
+     "kind": "particle",
+     "center": [
+      192,
+      239
+     ],
+     "sign": -1,
+     "amp": 0.24213458818826042,
+     "area": 61
+    },
+    {
+     "kind": "particle",
+     "center": [
+      74,
+      216
+     ],
+     "sign": 1,
+     "amp": 0.2954085487892759,
+     "area": 127
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      163,
+      74
+     ],
+     "sign": 1,
+     "amp": 0.25023795615853583,
+     "area": 39
+    }
+   ]
+  },
+  {
+   "image": "000621.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      210,
+      215
+     ],
+     "sign": -1,
+     "amp": 0.28361454746572945,
+     "area": 121
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      228,
+      60
+     ],
+     "sign": 1,
+     "amp": 0.18921680932579998,
+     "area": 35
+    },
+    {
+     "kind": "void",
+     "center": [
+      30,
+      216
+     ],
+     "sign": -1,
+     "amp": 0.32198822965652935,
+     "area": 149
+    }
+   ]
+  },
+  {
+   "image": "000678.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      120,
+      182
+     ],
+     "sign": -1,
+     "amp": 0.24194085526359133,
+     "area": 133
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      208,
+      217
+     ],
+     "sign": 1,
+     "amp": 0.32733563315790204,
+     "area": 35
+    }
+   ]
+  },
+  {
+   "image": "000680.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      122,
+      95
+     ],
+     "sign": -1,
+     "amp": 0.2502648532601831,
+     "area": 135
+    },
+    {
+     "kind": "particle",
+     "center": [
+      52,
+      46
+     ],
+     "sign": 1,
+     "amp": 0.22017707425984978,
+     "area": 73
+    }
+   ]
+  },
+  {
+   "image": "000685.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      136,
+      96
+     ],
+     "sign": 1,
+     "amp": 0.318000979104492,
+     "area": 113
+    },
+    {
+     "kind": "particle",
+     "center": [
+      39,
+      210
+     ],
+     "sign": -1,
+     "amp": 0.22566428563716,
+     "area": 137
+    }
+   ]
+  },
+  {
+   "image": "000705.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      216,
+      161
+     ],
+     "sign": 1,
+     "amp": 0.2384427044146949,
+     "area": 33
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      18,
+      164
+     ],
+     "sign": 1,
+     "amp": 0.20301925773636897,
+     "area": 85
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      191,
+      119
+     ],
+     "sign": 1,
+     "amp": 0.16051606769006185,
+     "area": 69
+    },
+    {
+     "kind": "void",
+     "center": [
+      210,
+      94
+     ],
+     "sign": -1,
+     "amp": 0.23398463422221583,
+     "area": 45
+    }
+   ]
+  },
+  {
+   "image": "000727.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      146,
+      193
+     ],
+     "sign": 1,
+     "amp": 0.17004289246696433,
+     "area": 57
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      173,
+      85
+     ],
+     "sign": 1,
+     "amp": 0.26117191691554514,
+     "area": 41
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      221,
+      202
+     ],
+     "sign": 1,
+     "amp": 0.22017077206110802,
+     "area": 59
+    }
+   ]
+  },
+  {
+   "image": "000794.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      139,
+      136
+     ],
+     "sign": -1,
+     "amp": 0.21380917941675937,
+     "area": 37
+    },
+    {
+     "kind": "void",
+     "center": [
+      197,
+      88
+     ],
+     "sign": -1,
+     "amp": 0.2648400414298932,
+     "area": 89
+    }
+   ]
+  },
+  {
+   "image": "000810.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      204,
+      146
+     ],
+     "sign": -1,
+     "amp": 0.18926180102439705,
+     "area": 37
+    },
+    {
+     "kind": "void",
+     "center": [
+      194,
+      18
+     ],
+     "sign": -1,
+     "amp": 0.2984921525052323,
+     "area": 89
+    }
+   ]
+  },
+  {
+   "image": "000867.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      165,
+      208
+     ],
+     "sign": 1,
+     "amp": 0.2506494854165009,
+     "area": 61
+    },
+    {
+     "kind": "particle",
+     "center": [
+      30,
+      163
+     ],
+     "sign": -1,
+     "amp": 0.34197991276516204,
+     "area": 91
+    },
+    {
+     "kind": "particle",
+     "center": [
+      229,
+      208
+     ],
+     "sign": -1,
+     "amp": 0.15303953183275498,
+     "area": 231
+    },
+    {
+     "kind": "particle",
+     "center": [
+      216,
+      135
+     ],
+     "sign": -1,
+     "amp": 0.16781919358268318,
+     "area": 133
+    }
+   ]
+  },
+  {
+   "image": "000887.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      164,
+      218
+     ],
+     "sign": -1,
+     "amp": 0.3104673291354417,
+     "area": 113
+    },
+    {
+     "kind": "void",
+     "center": [
+      239,
+      127
+     ],
+     "sign": -1,
+     "amp": 0.20925315029179986,
+     "area": 69
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      20,
+      126
+     ],
+     "sign": 1,
+     "amp": 0.32800887017617686,
+     "area": 83
+    }
+   ]
+  },
+  {
+   "image": "000929.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      125,
+      151
+     ],
+     "sign": 1,
+     "amp": 0.21585582669745854,
+     "area": 171
+    },
+    {
+     "kind": "particle",
+     "center": [
+      30,
+      82
+     ],
+     "sign": -1,
+     "amp": 0.25323319139438866,
+     "area": 137
+    }
+   ]
+  },
+  {
+   "image": "000944.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      140,
+      201
+     ],
+     "sign": 1,
+     "amp": 0.3464002797940916,
+     "area": 51
+    },
+    {
+     "kind": "particle",
+     "center": [
+      233,
+      182
+     ],
+     "sign": 1,
+     "amp": 0.3273892016428721,
+     "area": 65
+    },
+    {
+     "kind": "void",
+     "center": [
+      135,
+      108
+     ],
+     "sign": 1,
+     "amp": 0.16214792458968968,
+     "area": 69
+    }
+   ]
+  },
+  {
+   "image": "000945.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      165,
+      113
+     ],
+     "sign": 1,
+     "amp": 0.2848868142398644,
+     "area": 47
+    },
+    {
+     "kind": "particle",
+     "center": [
+      75,
+      100
+     ],
+     "sign": 1,
+     "amp": 0.17450006410609384,
+     "area": 177
+    },
+    {
+     "kind": "void",
+     "center": [
+      158,
+      169
+     ],
+     "sign": -1,
+     "amp": 0.2888772200337151,
+     "area": 177
+    },
+    {
+     "kind": "particle",
+     "center": [
+      59,
+      53
+     ],
+     "sign": 1,
+     "amp": 0.15432937257061316,
+     "area": 45
+    }
+   ]
+  },
+  {
+   "image": "000962.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      106,
+      90
+     ],
+     "sign": 1,
+     "amp": 0.1579826107092499,
+     "area": 27
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      49,
+      137
+     ],
+     "sign": 1,
+     "amp": 0.31450994615270733,
+     "area": 79
+    }
+   ]
+  },
+  {
+   "image": "001022.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      122,
+      81
+     ],
+     "sign": 1,
+     "amp": 0.2979845443903596,
+     "area": 225
+    },
+    {
+     "kind": "particle",
+     "center": [
+      234,
+      42
+     ],
+     "sign": 1,
+     "amp": 0.2954382010121126,
+     "area": 129
+    }
+   ]
+  },
+  {
+   "image": "001091.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      35,
+      190
+     ],
+     "sign": -1,
+     "amp": 0.2575131475836106,
+     "area": 41
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      176,
+      128
+     ],
+     "sign": 1,
+     "amp": 0.2774713463258929,
+     "area": 37
+    }
+   ]
+  },
+  {
+   "image": "001094.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      231,
+      140
+     ],
+     "sign": 1,
+     "amp": 0.23984248975924363,
+     "area": 45
+    },
+    {
+     "kind": "particle",
+     "center": [
+      154,
+      107
+     ],
+     "sign": 1,
+     "amp": 0.27465381697122554,
+     "area": 129
+    },
+    {
+     "kind": "particle",
+     "center": [
+      217,
+      222
+     ],
+     "sign": 1,
+     "amp": 0.19785864920531612,
+     "area": 83
+    }
+   ]
+  },
+  {
+   "image": "001114.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      218,
+      18
+     ],
+     "sign": 1,
+     "amp": 0.22706814056593339,
+     "area": 63
+    },
+    {
+     "kind": "particle",
+     "center": [
+      55,
+      161
+     ],
+     "sign": 1,
+     "amp": 0.22379212597512865,
+     "area": 65
+    },
+    {
+     "kind": "particle",
+     "center": [
+      184,
+      105
+     ],
+     "sign": 1,
+     "amp": 0.2908778603239587,
+     "area": 75
+    }
+   ]
+  },
+  {
+   "image": "001127.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      197,
+      64
+     ],
+     "sign": 1,
+     "amp": 0.28130513077973107,
+     "area": 71
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      123,
+      144
+     ],
+     "sign": 1,
+     "amp": 0.26444076851686193,
+     "area": 31
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      155,
+      201
+     ],
+     "sign": 1,
+     "amp": 0.2297152132818451,
+     "area": 63
+    }
+   ]
+  },
+  {
+   "image": "001151.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      191,
+      92
+     ],
+     "sign": -1,
+     "amp": 0.15223217697682384,
+     "area": 89
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      164,
+      118
+     ],
+     "sign": 1,
+     "amp": 0.2478038645496359,
+     "area": 67
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      39,
+      139
+     ],
+     "sign": 1,
+     "amp": 0.2287777355011893,
+     "area": 85
+    }
+   ]
+  },
+  {
+   "image": "001221.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      62,
+      20
+     ],
+     "sign": 1,
+     "amp": 0.23506875584362208,
+     "area": 67
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      110,
+      134
+     ],
+     "sign": 1,
+     "amp": 0.2561658868124579,
+     "area": 65
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      171,
+      117
+     ],
+     "sign": 1,
+     "amp": 0.29046864491804647,
+     "area": 41
+    }
+   ]
+  },
+  {
+   "image": "001233.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      167,
+      239
+     ],
+     "sign": -1,
+     "amp": 0.15002402029779496,
+     "area": 137
+    },
+    {
+     "kind": "void",
+     "center": [
+      81,
+      52
+     ],
+     "sign": -1,
+     "amp": 0.15884744137089896,
+     "area": 145
+    },
+    {
+     "kind": "particle",
+     "center": [
+      204,
+      223
+     ],
+     "sign": 1,
+     "amp": 0.15463026569259136,
+     "area": 99
+    }
+   ]
+  },
+  {
+   "image": "001264.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      152,
+      228
+     ],
+     "sign": -1,
+     "amp": 0.3075634866801006,
+     "area": 101
+    },
+    {
+     "kind": "void",
+     "center": [
+      228,
+      212
+     ],
+     "sign": -1,
+     "amp": 0.28427616211069495,
+     "area": 89
+    },
+    {
+     "kind": "void",
+     "center": [
+      111,
+      153
+     ],
+     "sign": -1,
+     "amp": 0.34931382622632784,
+     "area": 61
+    }
+   ]
+  },
+  {
+   "image": "001271.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      217,
+      146
+     ],
+     "sign": -1,
+     "amp": 0.2860372282934631,
+     "area": 79
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      28,
+      208
+     ],
+     "sign": 1,
+     "amp": 0.2859563447513753,
+     "area": 59
+    },
+    {
+     "kind": "void",
+     "center": [
+      141,
+      78
+     ],
+     "sign": -1,
+     "amp": 0.238012329032182,
+     "area": 61
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      198,
+      131
+     ],
+     "sign": 1,
+     "amp": 0.24007602193203806,
+     "area": 65
+    }
+   ]
+  },
+  {
+   "image": "001278.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      139,
+      141
+     ],
+     "sign": 1,
+     "amp": 0.24127647494540105,
+     "area": 39
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      188,
+      191
+     ],
+     "sign": 1,
+     "amp": 0.20728956573606352,
+     "area": 65
+    },
+    {
+     "kind": "void",
+     "center": [
+      52,
+      59
+     ],
+     "sign": -1,
+     "amp": 0.1836784720381751,
+     "area": 185
+    }
+   ]
+  },
+  {
+   "image": "001298.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      80,
+      79
+     ],
+     "sign": 1,
+     "amp": 0.22825251382114442,
+     "area": 103
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      228,
+      82
+     ],
+     "sign": 1,
+     "amp": 0.17812452273781818,
+     "area": 35
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      228,
+      124
+     ],
+     "sign": 1,
+     "amp": 0.17283169790093553,
+     "area": 39
+    },
+    {
+     "kind": "particle",
+     "center": [
+      103,
+      178
+     ],
+     "sign": 1,
+     "amp": 0.33551947255090675,
+     "area": 29
+    }
+   ]
+  },
+  {
+   "image": "001317.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      56,
+      124
+     ],
+     "sign": 1,
+     "amp": 0.3482479356236652,
+     "area": 79
+    },
+    {
+     "kind": "void",
+     "center": [
+      127,
+      156
+     ],
+     "sign": -1,
+     "amp": 0.1915465981027486,
+     "area": 29
+    },
+    {
+     "kind": "void",
+     "center": [
+      144,
+      93
+     ],
+     "sign": -1,
+     "amp": 0.33331085948904265,
+     "area": 37
+    },
+    {
+     "kind": "void",
+     "center": [
+      174,
+      223
+     ],
+     "sign": -1,
+     "amp": 0.3155642967552442,
+     "area": 37
+    }
+   ]
+  },
+  {
+   "image": "001344.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      149,
+      197
+     ],
+     "sign": 1,
+     "amp": 0.3245470694780227,
+     "area": 43
+    },
+    {
+     "kind": "void",
+     "center": [
+      81,
+      70
+     ],
+     "sign": -1,
+     "amp": 0.2927536633457398,
+     "area": 89
+    }
+   ]
+  },
+  {
+   "image": "001359.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      16,
+      183
+     ],
+     "sign": -1,
+     "amp": 0.15027232782105074,
+     "area": 57
+    },
+    {
+     "kind": "void",
+     "center": [
+      47,
+      210
+     ],
+     "sign": -1,
+     "amp": 0.2519513265795049,
+     "area": 57
+    },
+    {
+     "kind": "void",
+     "center": [
+      24,
+      139
+     ],
+     "sign": -1,
+     "amp": 0.2936318619161621,
+     "area": 97
+    },
+    {
+     "kind": "particle",
+     "center": [
+      109,
+      36
+     ],
+     "sign": 1,
+     "amp": 0.2991270065358048,
+     "area": 41
+    }
+   ]
+  },
+  {
+   "image": "001399.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      106,
+      50
+     ],
+     "sign": -1,
+     "amp": 0.22092639668943115,
+     "area": 29
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      212,
+      80
+     ],
+     "sign": 1,
+     "amp": 0.34235702058680506,
+     "area": 75
+    }
+   ]
+  },
+  {
+   "image": "001421.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      51,
+      133
+     ],
+     "sign": 1,
+     "amp": 0.23979601088085115,
+     "area": 35
+    },
+    {
+     "kind": "particle",
+     "center": [
+      53,
+      184
+     ],
+     "sign": -1,
+     "amp": 0.2820057775358856,
+     "area": 191
+    },
+    {
+     "kind": "particle",
+     "center": [
+      132,
+      37
+     ],
+     "sign": -1,
+     "amp": 0.1504286739874221,
+     "area": 97
+    }
+   ]
+  },
+  {
+   "image": "001425.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      54,
+      103
+     ],
+     "sign": 1,
+     "amp": 0.24842274212660567,
+     "area": 83
+    },
+    {
+     "kind": "void",
+     "center": [
+      29,
+      134
+     ],
+     "sign": -1,
+     "amp": 0.3356510724405188,
+     "area": 109
+    },
+    {
+     "kind": "particle",
+     "center": [
+      79,
+      103
+     ],
+     "sign": 1,
+     "amp": 0.27049646111628844,
+     "area": 237
+    },
+    {
+     "kind": "particle",
+     "center": [
+      130,
+      70
+     ],
+     "sign": -1,
+     "amp": 0.1876659754121507,
+     "area": 131
+    }
+   ]
+  },
+  {
+   "image": "001426.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      174,
+      58
+     ],
+     "sign": -1,
+     "amp": 0.25576368940008437,
+     "area": 137
+    },
+    {
+     "kind": "void",
+     "center": [
+      185,
+      157
+     ],
+     "sign": -1,
+     "amp": 0.25005742635063377,
+     "area": 89
+    },
+    {
+     "kind": "void",
+     "center": [
+      117,
+      186
+     ],
+     "sign": -1,
+     "amp": 0.269367119154992,
+     "area": 45
+    },
+    {
+     "kind": "void",
+     "center": [
+      115,
+      229
+     ],
+     "sign": -1,
+     "amp": 0.19389235689040518,
+     "area": 185
+    }
+   ]
+  },
+  {
+   "image": "001427.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      134,
+      82
+     ],
+     "sign": 1,
+     "amp": 0.2468375775856192,
+     "area": 53
+    },
+    {
+     "kind": "void",
+     "center": [
+      173,
+      170
+     ],
+     "sign": -1,
+     "amp": 0.3099975718967719,
+     "area": 29
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      192,
+      138
+     ],
+     "sign": 1,
+     "amp": 0.30114002208369395,
+     "area": 67
+    },
+    {
+     "kind": "void",
+     "center": [
+      39,
+      77
+     ],
+     "sign": -1,
+     "amp": 0.3053936717682878,
+     "area": 97
+    }
+   ]
+  },
+  {
+   "image": "001446.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      100,
+      35
+     ],
+     "sign": 1,
+     "amp": 0.20842937311951232,
+     "area": 37
+    },
+    {
+     "kind": "void",
+     "center": [
+      38,
+      111
+     ],
+     "sign": 1,
+     "amp": 0.20539617735856308,
+     "area": 97
+    },
+    {
+     "kind": "void",
+     "center": [
+      205,
+      33
+     ],
+     "sign": 1,
+     "amp": 0.15201708378413195,
+     "area": 37
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      82,
+      93
+     ],
+     "sign": 1,
+     "amp": 0.2965454538375355,
+     "area": 55
+    }
+   ]
+  },
+  {
+   "image": "001447.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      176,
+      233
+     ],
+     "sign": 1,
+     "amp": 0.19438895354267238,
+     "area": 45
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      150,
+      63
+     ],
+     "sign": 1,
+     "amp": 0.2787881951101209,
+     "area": 37
+    }
+   ]
+  },
+  {
+   "image": "001457.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      24,
+      44
+     ],
+     "sign": -1,
+     "amp": 0.24050523020552755,
+     "area": 185
+    },
+    {
+     "kind": "particle",
+     "center": [
+      22,
+      72
+     ],
+     "sign": -1,
+     "amp": 0.22367385940999301,
+     "area": 129
+    },
+    {
+     "kind": "particle",
+     "center": [
+      210,
+      75
+     ],
+     "sign": 1,
+     "amp": 0.3030023379520285,
+     "area": 77
+    },
+    {
+     "kind": "void",
+     "center": [
+      82,
+      58
+     ],
+     "sign": 1,
+     "amp": 0.1540899469809184,
+     "area": 61
+    }
+   ]
+  },
+  {
+   "image": "001474.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      186,
+      195
+     ],
+     "sign": 1,
+     "amp": 0.28518812256838544,
+     "area": 39
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      172,
+      44
+     ],
+     "sign": 1,
+     "amp": 0.2649347503687449,
+     "area": 65
+    },
+    {
+     "kind": "void",
+     "center": [
+      69,
+      237
+     ],
+     "sign": -1,
+     "amp": 0.30353059138146554,
+     "area": 137
+    }
+   ]
+  },
+  {
+   "image": "001487.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      21,
+      107
+     ],
+     "sign": 1,
+     "amp": 0.19165268162915686,
+     "area": 33
+    },
+    {
+     "kind": "void",
+     "center": [
+      212,
+      82
+     ],
+     "sign": 1,
+     "amp": 0.15178293148290267,
+     "area": 193
+    },
+    {
+     "kind": "particle",
+     "center": [
+      225,
+      193
+     ],
+     "sign": 1,
+     "amp": 0.29032455978127814,
+     "area": 87
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      140,
+      37
+     ],
+     "sign": 1,
+     "amp": 0.1677101948655796,
+     "area": 91
+    }
+   ]
+  },
+  {
+   "image": "001502.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      58,
+      104
+     ],
+     "sign": 1,
+     "amp": 0.17917717138368816,
+     "area": 77
+    },
+    {
+     "kind": "void",
+     "center": [
+      130,
+      129
+     ],
+     "sign": -1,
+     "amp": 0.2853811383874233,
+     "area": 37
+    }
+   ]
+  },
+  {
+   "image": "001507.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      22,
+      45
+     ],
+     "sign": 1,
+     "amp": 0.33363692671048817,
+     "area": 61
+    },
+    {
+     "kind": "particle",
+     "center": [
+      182,
+      213
+     ],
+     "sign": 1,
+     "amp": 0.2880634142691567,
+     "area": 93
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      106,
+      216
+     ],
+     "sign": 1,
+     "amp": 0.3262864610874956,
+     "area": 53
+    }
+   ]
+  },
+  {
+   "image": "001538.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      158,
+      234
+     ],
+     "sign": 1,
+     "amp": 0.1748520879662252,
+     "area": 79
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      208,
+      107
+     ],
+     "sign": 1,
+     "amp": 0.24411207253374714,
+     "area": 67
+    },
+    {
+     "kind": "void",
+     "center": [
+      96,
+      173
+     ],
+     "sign": 1,
+     "amp": 0.2518599011874145,
+     "area": 45
+    }
+   ]
+  },
+  {
+   "image": "001562.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      227,
+      125
+     ],
+     "sign": 1,
+     "amp": 0.3465593852287226,
+     "area": 53
+    },
+    {
+     "kind": "void",
+     "center": [
+      127,
+      219
+     ],
+     "sign": -1,
+     "amp": 0.3430884629542512,
+     "area": 37
+    }
+   ]
+  },
+  {
+   "image": "001566.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      85,
+      210
+     ],
+     "sign": 1,
+     "amp": 0.21816236211159457,
+     "area": 121
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      135,
+      216
+     ],
+     "sign": 1,
+     "amp": 0.21119116594165344,
+     "area": 73
+    }
+   ]
+  },
+  {
+   "image": "001575.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      90,
+      108
+     ],
+     "sign": 1,
+     "amp": 0.3284433520921262,
+     "area": 79
+    },
+    {
+     "kind": "particle",
+     "center": [
+      220,
+      99
+     ],
+     "sign": 1,
+     "amp": 0.3295530224154268,
+     "area": 89
+    },
+    {
+     "kind": "void",
+     "center": [
+      134,
+      39
+     ],
+     "sign": -1,
+     "amp": 0.3472894247720082,
+     "area": 89
+    }
+   ]
+  },
+  {
+   "image": "001660.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      16,
+      200
+     ],
+     "sign": -1,
+     "amp": 0.23233113851623205,
+     "area": 37
+    },
+    {
+     "kind": "void",
+     "center": [
+      45,
+      32
+     ],
+     "sign": 1,
+     "amp": 0.1849789378694206,
+     "area": 29
+    },
+    {
+     "kind": "particle",
+     "center": [
+      166,
+      191
+     ],
+     "sign": -1,
+     "amp": 0.24794650387483932,
+     "area": 101
+    }
+   ]
+  },
+  {
+   "image": "001662.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      98,
+      88
+     ],
+     "sign": -1,
+     "amp": 0.29069869855494657,
+     "area": 181
+    },
+    {
+     "kind": "particle",
+     "center": [
+      98,
+      169
+     ],
+     "sign": -1,
+     "amp": 0.22600508145224932,
+     "area": 87
+    }
+   ]
+  },
+  {
+   "image": "001697.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      43,
+      214
+     ],
+     "sign": 1,
+     "amp": 0.226890112738034,
+     "area": 141
+    },
+    {
+     "kind": "particle",
+     "center": [
+      170,
+      193
+     ],
+     "sign": 1,
+     "amp": 0.22107194398808533,
+     "area": 97
+    }
+   ]
+  },
+  {
+   "image": "001706.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      154,
+      29
+     ],
+     "sign": 1,
+     "amp": 0.23625314786359303,
+     "area": 85
+    },
+    {
+     "kind": "void",
+     "center": [
+      175,
+      70
+     ],
+     "sign": -1,
+     "amp": 0.32311099860400616,
+     "area": 137
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      211,
+      139
+     ],
+     "sign": 1,
+     "amp": 0.2584830519369263,
+     "area": 35
+    },
+    {
+     "kind": "particle",
+     "center": [
+      196,
+      192
+     ],
+     "sign": -1,
+     "amp": 0.15224235843024292,
+     "area": 213
+    }
+   ]
+  },
+  {
+   "image": "001723.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      106,
+      143
+     ],
+     "sign": 1,
+     "amp": 0.21379966925369634,
+     "area": 45
+    },
+    {
+     "kind": "void",
+     "center": [
+      89,
+      230
+     ],
+     "sign": -1,
+     "amp": 0.189865617699327,
+     "area": 177
+    },
+    {
+     "kind": "particle",
+     "center": [
+      200,
+      197
+     ],
+     "sign": -1,
+     "amp": 0.17940286900605573,
+     "area": 161
+    }
+   ]
+  },
+  {
+   "image": "001729.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      25,
+      175
+     ],
+     "sign": 1,
+     "amp": 0.17430748086852732,
+     "area": 45
+    },
+    {
+     "kind": "void",
+     "center": [
+      107,
+      203
+     ],
+     "sign": -1,
+     "amp": 0.21978542278572274,
+     "area": 61
+    },
+    {
+     "kind": "particle",
+     "center": [
+      74,
+      189
+     ],
+     "sign": 1,
+     "amp": 0.16591055108615074,
+     "area": 69
+    }
+   ]
+  },
+  {
+   "image": "001744.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      46,
+      21
+     ],
+     "sign": -1,
+     "amp": 0.29581771331457674,
+     "area": 69
+    },
+    {
+     "kind": "void",
+     "center": [
+      30,
+      218
+     ],
+     "sign": -1,
+     "amp": 0.24795630804543084,
+     "area": 45
+    }
+   ]
+  },
+  {
+   "image": "001766.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      146,
+      62
+     ],
+     "sign": -1,
+     "amp": 0.21136098534802905,
+     "area": 109
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      36,
+      102
+     ],
+     "sign": 1,
+     "amp": 0.2735606144192915,
+     "area": 49
+    },
+    {
+     "kind": "particle",
+     "center": [
+      52,
+      213
+     ],
+     "sign": 1,
+     "amp": 0.32828511054802206,
+     "area": 93
+    },
+    {
+     "kind": "void",
+     "center": [
+      102,
+      160
+     ],
+     "sign": -1,
+     "amp": 0.2799300624132306,
+     "area": 177
+    }
+   ]
+  },
+  {
+   "image": "001767.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      164,
+      123
+     ],
+     "sign": -1,
+     "amp": 0.17493574320730562,
+     "area": 93
+    },
+    {
+     "kind": "particle",
+     "center": [
+      39,
+      158
+     ],
+     "sign": 1,
+     "amp": 0.2744875938513444,
+     "area": 113
+    },
+    {
+     "kind": "void",
+     "center": [
+      190,
+      234
+     ],
+     "sign": -1,
+     "amp": 0.34006630997103515,
+     "area": 97
+    },
+    {
+     "kind": "void",
+     "center": [
+      25,
+      115
+     ],
+     "sign": 1,
+     "amp": 0.29871041845269486,
+     "area": 129
+    }
+   ]
+  },
+  {
+   "image": "001788.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      112,
+      26
+     ],
+     "sign": 1,
+     "amp": 0.22763717071872944,
+     "area": 95
+    },
+    {
+     "kind": "void",
+     "center": [
+      207,
+      73
+     ],
+     "sign": 1,
+     "amp": 0.23126400657417442,
+     "area": 89
+    }
+   ]
+  },
+  {
+   "image": "001800.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      223,
+      126
+     ],
+     "sign": 1,
+     "amp": 0.3085015850624005,
+     "area": 87
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      186,
+      38
+     ],
+     "sign": 1,
+     "amp": 0.2283302469754923,
+     "area": 75
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      212,
+      187
+     ],
+     "sign": 1,
+     "amp": 0.16114153311865717,
+     "area": 75
+    },
+    {
+     "kind": "void",
+     "center": [
+      138,
+      136
+     ],
+     "sign": 1,
+     "amp": 0.17932660153756008,
+     "area": 45
+    }
+   ]
+  },
+  {
+   "image": "001803.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      86,
+      159
+     ],
+     "sign": 1,
+     "amp": 0.22780836350381561,
+     "area": 65
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      154,
+      138
+     ],
+     "sign": 1,
+     "amp": 0.2692365942940314,
+     "area": 67
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      154,
+      47
+     ],
+     "sign": 1,
+     "amp": 0.19078730154131063,
+     "area": 45
+    }
+   ]
+  },
+  {
+   "image": "001867.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      66,
+      209
+     ],
+     "sign": -1,
+     "amp": 0.31808213960523746,
+     "area": 137
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      114,
+      231
+     ],
+     "sign": 1,
+     "amp": 0.3223619092111537,
+     "area": 35
+    },
+    {
+     "kind": "void",
+     "center": [
+      187,
+      42
+     ],
+     "sign": -1,
+     "amp": 0.34426509966843194,
+     "area": 37
+    }
+   ]
+  },
+  {
+   "image": "001933.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      21,
+      143
+     ],
+     "sign": 1,
+     "amp": 0.34027242200311913,
+     "area": 53
+    },
+    {
+     "kind": "particle",
+     "center": [
+      154,
+      55
+     ],
+     "sign": -1,
+     "amp": 0.23583316011033195,
+     "area": 145
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      87,
+      20
+     ],
+     "sign": 1,
+     "amp": 0.16349583944803228,
+     "area": 43
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      239,
+      122
+     ],
+     "sign": 1,
+     "amp": 0.17855006916821525,
+     "area": 61
+    }
+   ]
+  },
+  {
+   "image": "001948.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      99,
+      190
+     ],
+     "sign": 1,
+     "amp": 0.2849913606421408,
+     "area": 137
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      94,
+      147
+     ],
+     "sign": 1,
+     "amp": 0.2845837410533728,
+     "area": 27
+    },
+    {
+     "kind": "particle",
+     "center": [
+      54,
+      89
+     ],
+     "sign": -1,
+     "amp": 0.26716896788693456,
+     "area": 95
+    }
+   ]
+  },
+  {
+   "image": "001978.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      115,
+      237
+     ],
+     "sign": -1,
+     "amp": 0.323895258212339,
+     "area": 101
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      173,
+      50
+     ],
+     "sign": 1,
+     "amp": 0.26345348449446054,
+     "area": 41
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      114,
+      194
+     ],
+     "sign": 1,
+     "amp": 0.31269498731535483,
+     "area": 89
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      183,
+      147
+     ],
+     "sign": 1,
+     "amp": 0.28429052707337565,
+     "area": 39
+    }
+   ]
+  },
+  {
+   "image": "001991.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      235,
+      194
+     ],
+     "sign": -1,
+     "amp": 0.17761163807179003,
+     "area": 89
+    },
+    {
+     "kind": "void",
+     "center": [
+      186,
+      137
+     ],
+     "sign": -1,
+     "amp": 0.20432874569641274,
+     "area": 177
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      126,
+      173
+     ],
+     "sign": 1,
+     "amp": 0.2899255422123673,
+     "area": 41
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      44,
+      174
+     ],
+     "sign": 1,
+     "amp": 0.2281217810798152,
+     "area": 51
+    }
+   ]
+  },
+  {
+   "image": "002023.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      207,
+      40
+     ],
+     "sign": 1,
+     "amp": 0.3192275319436694,
+     "area": 101
+    },
+    {
+     "kind": "particle",
+     "center": [
+      26,
+      118
+     ],
+     "sign": 1,
+     "amp": 0.34427813580135475,
+     "area": 69
+    }
+   ]
+  },
+  {
+   "image": "002069.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      46,
+      223
+     ],
+     "sign": -1,
+     "amp": 0.17963784323851237,
+     "area": 85
+    },
+    {
+     "kind": "void",
+     "center": [
+      134,
+      125
+     ],
+     "sign": 1,
+     "amp": 0.20585734891150764,
+     "area": 185
+    },
+    {
+     "kind": "void",
+     "center": [
+      146,
+      93
+     ],
+     "sign": -1,
+     "amp": 0.2536119267709711,
+     "area": 69
+    },
+    {
+     "kind": "particle",
+     "center": [
+      64,
+      169
+     ],
+     "sign": 1,
+     "amp": 0.18481850306892705,
+     "area": 85
+    }
+   ]
+  },
+  {
+   "image": "002134.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      114,
+      132
+     ],
+     "sign": 1,
+     "amp": 0.22930804487231757,
+     "area": 41
+    },
+    {
+     "kind": "particle",
+     "center": [
+      217,
+      136
+     ],
+     "sign": 1,
+     "amp": 0.19635568856174912,
+     "area": 85
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      74,
+      163
+     ],
+     "sign": 1,
+     "amp": 0.20808990164109084,
+     "area": 77
+    }
+   ]
+  },
+  {
+   "image": "002154.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      53,
+      79
+     ],
+     "sign": 1,
+     "amp": 0.29844306798408976,
+     "area": 85
+    },
+    {
+     "kind": "particle",
+     "center": [
+      224,
+      167
+     ],
+     "sign": -1,
+     "amp": 0.2535377888313272,
+     "area": 77
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      132,
+      220
+     ],
+     "sign": 1,
+     "amp": 0.18190914169505923,
+     "area": 79
+    }
+   ]
+  },
+  {
+   "image": "002166.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      47,
+      27
+     ],
+     "sign": -1,
+     "amp": 0.16868506499510538,
+     "area": 175
+    },
+    {
+     "kind": "void",
+     "center": [
+      233,
+      227
+     ],
+     "sign": -1,
+     "amp": 0.17505223367967296,
+     "area": 185
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      146,
+      134
+     ],
+     "sign": 1,
+     "amp": 0.21087285345733997,
+     "area": 79
+    },
+    {
+     "kind": "void",
+     "center": [
+      108,
+      237
+     ],
+     "sign": -1,
+     "amp": 0.17731275362963117,
+     "area": 193
+    }
+   ]
+  },
+  {
+   "image": "002185.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      54,
+      53
+     ],
+     "sign": -1,
+     "amp": 0.21560840825239858,
+     "area": 57
+    },
+    {
+     "kind": "void",
+     "center": [
+      93,
+      155
+     ],
+     "sign": 1,
+     "amp": 0.23480010266636386,
+     "area": 97
+    }
+   ]
+  },
+  {
+   "image": "002188.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      212,
+      151
+     ],
+     "sign": -1,
+     "amp": 0.1882932167627528,
+     "area": 121
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      179,
+      88
+     ],
+     "sign": 1,
+     "amp": 0.15290018014266052,
+     "area": 53
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      100,
+      197
+     ],
+     "sign": 1,
+     "amp": 0.3392470504734957,
+     "area": 95
+    }
+   ]
+  },
+  {
+   "image": "002210.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      50,
+      216
+     ],
+     "sign": 1,
+     "amp": 0.21880343903661137,
+     "area": 49
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      188,
+      81
+     ],
+     "sign": 1,
+     "amp": 0.2744112007006783,
+     "area": 33
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      17,
+      55
+     ],
+     "sign": 1,
+     "amp": 0.16211359391050784,
+     "area": 59
+    }
+   ]
+  },
+  {
+   "image": "002222.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      85,
+      152
+     ],
+     "sign": -1,
+     "amp": 0.2936738252317783,
+     "area": 135
+    },
+    {
+     "kind": "particle",
+     "center": [
+      160,
+      137
+     ],
+     "sign": -1,
+     "amp": 0.23618621704834342,
+     "area": 201
+    },
+    {
+     "kind": "void",
+     "center": [
+      38,
+      91
+     ],
+     "sign": -1,
+     "amp": 0.2836668504298496,
+     "area": 145
+    }
+   ]
+  },
+  {
+   "image": "002228.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      231,
+      90
+     ],
+     "sign": 1,
+     "amp": 0.3463457439888599,
+     "area": 57
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      171,
+      133
+     ],
+     "sign": 1,
+     "amp": 0.273489237006314,
+     "area": 79
+    }
+   ]
+  },
+  {
+   "image": "002247.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      169,
+      146
+     ],
+     "sign": 1,
+     "amp": 0.27377906179411116,
+     "area": 25
+    },
+    {
+     "kind": "void",
+     "center": [
+      156,
+      232
+     ],
+     "sign": -1,
+     "amp": 0.2695530811685534,
+     "area": 145
+    },
+    {
+     "kind": "particle",
+     "center": [
+      81,
+      84
+     ],
+     "sign": 1,
+     "amp": 0.26950928191877155,
+     "area": 121
+    }
+   ]
+  },
+  {
+   "image": "002252.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      64,
+      73
+     ],
+     "sign": -1,
+     "amp": 0.19049300702312366,
+     "area": 97
+    },
+    {
+     "kind": "particle",
+     "center": [
+      135,
+      207
+     ],
+     "sign": 1,
+     "amp": 0.20717172982258952,
+     "area": 137
+    },
+    {
+     "kind": "particle",
+     "center": [
+      208,
+      167
+     ],
+     "sign": -1,
+     "amp": 0.1846648985886322,
+     "area": 165
+    },
+    {
+     "kind": "particle",
+     "center": [
+      122,
+      169
+     ],
+     "sign": -1,
+     "amp": 0.19538970114001983,
+     "area": 119
+    }
+   ]
+  },
+  {
+   "image": "002262.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      192,
+      135
+     ],
+     "sign": -1,
+     "amp": 0.16475517147452162,
+     "area": 37
+    },
+    {
+     "kind": "void",
+     "center": [
+      86,
+      209
+     ],
+     "sign": -1,
+     "amp": 0.17819978963147043,
+     "area": 145
+    }
+   ]
+  },
+  {
+   "image": "002281.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      198,
+      139
+     ],
+     "sign": 1,
+     "amp": 0.27612490324999184,
+     "area": 63
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      156,
+      39
+     ],
+     "sign": 1,
+     "amp": 0.29633007811842405,
+     "area": 73
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      106,
+      45
+     ],
+     "sign": 1,
+     "amp": 0.30505203021138394,
+     "area": 51
+    }
+   ]
+  },
+  {
+   "image": "002323.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      29,
+      128
+     ],
+     "sign": 1,
+     "amp": 0.33732292938074215,
+     "area": 41
+    },
+    {
+     "kind": "particle",
+     "center": [
+      116,
+      77
+     ],
+     "sign": 1,
+     "amp": 0.20172511051436548,
+     "area": 71
+    },
+    {
+     "kind": "particle",
+     "center": [
+      152,
+      90
+     ],
+     "sign": 1,
+     "amp": 0.16940606139918135,
+     "area": 63
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      222,
+      208
+     ],
+     "sign": 1,
+     "amp": 0.2854578772565922,
+     "area": 85
+    }
+   ]
+  },
+  {
+   "image": "002325.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      83,
+      164
+     ],
+     "sign": -1,
+     "amp": 0.3320522568945026,
+     "area": 89
+    },
+    {
+     "kind": "particle",
+     "center": [
+      56,
+      81
+     ],
+     "sign": -1,
+     "amp": 0.2415694411221975,
+     "area": 55
+    }
+   ]
+  },
+  {
+   "image": "002338.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      113,
+      110
+     ],
+     "sign": 1,
+     "amp": 0.1906438029443682,
+     "area": 55
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      173,
+      138
+     ],
+     "sign": 1,
+     "amp": 0.17605976721645952,
+     "area": 75
+    }
+   ]
+  },
+  {
+   "image": "002360.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      107,
+      172
+     ],
+     "sign": 1,
+     "amp": 0.27102137243510793,
+     "area": 177
+    },
+    {
+     "kind": "void",
+     "center": [
+      195,
+      42
+     ],
+     "sign": -1,
+     "amp": 0.2936226394928738,
+     "area": 169
+    },
+    {
+     "kind": "void",
+     "center": [
+      92,
+      227
+     ],
+     "sign": 1,
+     "amp": 0.18999696302542032,
+     "area": 149
+    },
+    {
+     "kind": "void",
+     "center": [
+      222,
+      138
+     ],
+     "sign": -1,
+     "amp": 0.20724641832225063,
+     "area": 177
+    }
+   ]
+  },
+  {
+   "image": "002378.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      68,
+      211
+     ],
+     "sign": -1,
+     "amp": 0.24124641027469584,
+     "area": 61
+    },
+    {
+     "kind": "void",
+     "center": [
+      177,
+      86
+     ],
+     "sign": -1,
+     "amp": 0.3369190482227067,
+     "area": 45
+    },
+    {
+     "kind": "void",
+     "center": [
+      34,
+      23
+     ],
+     "sign": 1,
+     "amp": 0.15418513040138082,
+     "area": 29
+    }
+   ]
+  },
+  {
+   "image": "002380.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      35,
+      196
+     ],
+     "sign": 1,
+     "amp": 0.1512259330887627,
+     "area": 77
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      203,
+      231
+     ],
+     "sign": 1,
+     "amp": 0.2336243559478362,
+     "area": 43
+    }
+   ]
+  },
+  {
+   "image": "002464.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      181,
+      74
+     ],
+     "sign": 1,
+     "amp": 0.3076875154998202,
+     "area": 107
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      139,
+      66
+     ],
+     "sign": 1,
+     "amp": 0.2441288195508845,
+     "area": 27
+    },
+    {
+     "kind": "particle",
+     "center": [
+      29,
+      128
+     ],
+     "sign": 1,
+     "amp": 0.3491766467344404,
+     "area": 91
+    }
+   ]
+  },
+  {
+   "image": "002467.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      18,
+      212
+     ],
+     "sign": 1,
+     "amp": 0.19298265529408606,
+     "area": 77
+    },
+    {
+     "kind": "particle",
+     "center": [
+      220,
+      222
+     ],
+     "sign": -1,
+     "amp": 0.2230037538559866,
+     "area": 105
+    },
+    {
+     "kind": "particle",
+     "center": [
+      139,
+      72
+     ],
+     "sign": 1,
+     "amp": 0.19405264548603243,
+     "area": 77
+    }
+   ]
+  },
+  {
+   "image": "002538.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      75,
+      172
+     ],
+     "sign": -1,
+     "amp": 0.2504431150681191,
+     "area": 147
+    },
+    {
+     "kind": "particle",
+     "center": [
+      48,
+      103
+     ],
+     "sign": -1,
+     "amp": 0.21314572456705216,
+     "area": 155
+    },
+    {
+     "kind": "particle",
+     "center": [
+      189,
+      129
+     ],
+     "sign": 1,
+     "amp": 0.21577435102527615,
+     "area": 173
+    }
+   ]
+  },
+  {
+   "image": "002606.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      17,
+      85
+     ],
+     "sign": -1,
+     "amp": 0.26576953762929645,
+     "area": 177
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      171,
+      38
+     ],
+     "sign": 1,
+     "amp": 0.2398380249331707,
+     "area": 59
+    }
+   ]
+  },
+  {
+   "image": "002620.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      182,
+      162
+     ],
+     "sign": 1,
+     "amp": 0.34494335310594243,
+     "area": 39
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      154,
+      105
+     ],
+     "sign": 1,
+     "amp": 0.21882148257530976,
+     "area": 63
+    },
+    {
+     "kind": "void",
+     "center": [
+      156,
+      226
+     ],
+     "sign": -1,
+     "amp": 0.28102986736042457,
+     "area": 113
+    },
+    {
+     "kind": "void",
+     "center": [
+      117,
+      52
+     ],
+     "sign": -1,
+     "amp": 0.2238188583977751,
+     "area": 137
+    }
+   ]
+  },
+  {
+   "image": "002656.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      32,
+      78
+     ],
+     "sign": 1,
+     "amp": 0.20338473977545202,
+     "area": 33
+    },
+    {
+     "kind": "particle",
+     "center": [
+      163,
+      130
+     ],
+     "sign": -1,
+     "amp": 0.24742689898101258,
+     "area": 115
+    },
+    {
+     "kind": "particle",
+     "center": [
+      155,
+      207
+     ],
+     "sign": -1,
+     "amp": 0.32433447323656595,
+     "area": 143
+    },
+    {
+     "kind": "particle",
+     "center": [
+      43,
+      204
+     ],
+     "sign": -1,
+     "amp": 0.19644057905427276,
+     "area": 79
+    }
+   ]
+  },
+  {
+   "image": "002698.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      150,
+      82
+     ],
+     "sign": -1,
+     "amp": 0.1647626010768734,
+     "area": 37
+    },
+    {
+     "kind": "particle",
+     "center": [
+      213,
+      19
+     ],
+     "sign": -1,
+     "amp": 0.2570612488825526,
+     "area": 43
+    }
+   ]
+  },
+  {
+   "image": "002714.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      99,
+      17
+     ],
+     "sign": -1,
+     "amp": 0.19531642036415162,
+     "area": 193
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      91,
+      165
+     ],
+     "sign": 1,
+     "amp": 0.23737604412337865,
+     "area": 61
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      158,
+      116
+     ],
+     "sign": 1,
+     "amp": 0.1976981883121742,
+     "area": 69
+    }
+   ]
+  },
+  {
+   "image": "002766.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      120,
+      130
+     ],
+     "sign": 1,
+     "amp": 0.16696725781596541,
+     "area": 45
+    },
+    {
+     "kind": "void",
+     "center": [
+      195,
+      237
+     ],
+     "sign": 1,
+     "amp": 0.33799526540098357,
+     "area": 37
+    }
+   ]
+  },
+  {
+   "image": "002808.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      33,
+      89
+     ],
+     "sign": -1,
+     "amp": 0.18383532838476455,
+     "area": 91
+    },
+    {
+     "kind": "void",
+     "center": [
+      70,
+      16
+     ],
+     "sign": -1,
+     "amp": 0.3485248337730747,
+     "area": 69
+    },
+    {
+     "kind": "void",
+     "center": [
+      143,
+      162
+     ],
+     "sign": -1,
+     "amp": 0.1685626012284259,
+     "area": 177
+    },
+    {
+     "kind": "particle",
+     "center": [
+      138,
+      115
+     ],
+     "sign": 1,
+     "amp": 0.17704478869514642,
+     "area": 185
+    }
+   ]
+  },
+  {
+   "image": "002813.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      68,
+      38
+     ],
+     "sign": 1,
+     "amp": 0.2335820315120162,
+     "area": 137
+    },
+    {
+     "kind": "particle",
+     "center": [
+      87,
+      153
+     ],
+     "sign": 1,
+     "amp": 0.15588925301694656,
+     "area": 107
+    },
+    {
+     "kind": "void",
+     "center": [
+      22,
+      95
+     ],
+     "sign": -1,
+     "amp": 0.30678028671055846,
+     "area": 29
+    }
+   ]
+  },
+  {
+   "image": "002822.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      165,
+      151
+     ],
+     "sign": 1,
+     "amp": 0.31826703914826326,
+     "area": 131
+    },
+    {
+     "kind": "particle",
+     "center": [
+      236,
+      160
+     ],
+     "sign": -1,
+     "amp": 0.3232096015127326,
+     "area": 117
+    },
+    {
+     "kind": "void",
+     "center": [
+      82,
+      192
+     ],
+     "sign": 1,
+     "amp": 0.34062539334641584,
+     "area": 29
+    }
+   ]
+  },
+  {
+   "image": "002851.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      116,
+      192
+     ],
+     "sign": -1,
+     "amp": 0.30976675529672215,
+     "area": 137
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      57,
+      237
+     ],
+     "sign": 1,
+     "amp": 0.2652433668733853,
+     "area": 49
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      131,
+      114
+     ],
+     "sign": 1,
+     "amp": 0.18238706417702252,
+     "area": 31
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      221,
+      104
+     ],
+     "sign": 1,
+     "amp": 0.2769167435534964,
+     "area": 43
+    }
+   ]
+  },
+  {
+   "image": "002852.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      103,
+      199
+     ],
+     "sign": 1,
+     "amp": 0.18971071219449567,
+     "area": 61
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      144,
+      177
+     ],
+     "sign": 1,
+     "amp": 0.32660786586511353,
+     "area": 85
+    }
+   ]
+  },
+  {
+   "image": "002905.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      78,
+      24
+     ],
+     "sign": 1,
+     "amp": 0.23319480013301466,
+     "area": 145
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      30,
+      218
+     ],
+     "sign": 1,
+     "amp": 0.24936604513268362,
+     "area": 55
+    }
+   ]
+  },
+  {
+   "image": "002921.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      219,
+      90
+     ],
+     "sign": -1,
+     "amp": 0.26790875849851165,
+     "area": 145
+    },
+    {
+     "kind": "void",
+     "center": [
+      202,
+      25
+     ],
+     "sign": -1,
+     "amp": 0.15358134129806628,
+     "area": 29
+    }
+   ]
+  },
+  {
+   "image": "002928.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      177,
+      222
+     ],
+     "sign": 1,
+     "amp": 0.31495071600069946,
+     "area": 119
+    },
+    {
+     "kind": "void",
+     "center": [
+      118,
+      210
+     ],
+     "sign": -1,
+     "amp": 0.1668842687605696,
+     "area": 177
+    },
+    {
+     "kind": "void",
+     "center": [
+      21,
+      192
+     ],
+     "sign": -1,
+     "amp": 0.20973919833875262,
+     "area": 37
+    }
+   ]
+  },
+  {
+   "image": "002953.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      99,
+      114
+     ],
+     "sign": -1,
+     "amp": 0.1608342186030754,
+     "area": 59
+    },
+    {
+     "kind": "particle",
+     "center": [
+      164,
+      65
+     ],
+     "sign": -1,
+     "amp": 0.22880266804080868,
+     "area": 83
+    }
+   ]
+  },
+  {
+   "image": "002979.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      138,
+      182
+     ],
+     "sign": -1,
+     "amp": 0.238467674029525,
+     "area": 77
+    },
+    {
+     "kind": "void",
+     "center": [
+      30,
+      236
+     ],
+     "sign": 1,
+     "amp": 0.15461662478867766,
+     "area": 45
+    },
+    {
+     "kind": "particle",
+     "center": [
+      102,
+      114
+     ],
+     "sign": 1,
+     "amp": 0.17508209049213436,
+     "area": 147
+    }
+   ]
+  },
+  {
+   "image": "003000.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      74,
+      66
+     ],
+     "sign": 1,
+     "amp": 0.20135943854581304,
+     "area": 37
+    },
+    {
+     "kind": "void",
+     "center": [
+      123,
+      178
+     ],
+     "sign": 1,
+     "amp": 0.30734129716418723,
+     "area": 45
+    }
+   ]
+  },
+  {
+   "image": "003027.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      230,
+      217
+     ],
+     "sign": -1,
+     "amp": 0.28572393896294457,
+     "area": 69
+    },
+    {
+     "kind": "void",
+     "center": [
+      75,
+      47
+     ],
+     "sign": -1,
+     "amp": 0.17448184416292922,
+     "area": 169
+    }
+   ]
+  },
+  {
+   "image": "003043.npy",
+   "defects": [
+    {
+     "kind": "void",
+     "center": [
+      201,
+      70
+     ],
+     "sign": -1,
+     "amp": 0.20763260504549805,
+     "area": 185
+    },
+    {
+     "kind": "particle",
+     "center": [
+      54,
+      55
+     ],
+     "sign": 1,
+     "amp": 0.1690159962898441,
+     "area": 197
+    },
+    {
+     "kind": "particle",
+     "center": [
+      199,
+      99
+     ],
+     "sign": 1,
+     "amp": 0.1992668842282998,
+     "area": 159
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      156,
+      156
+     ],
+     "sign": 1,
+     "amp": 0.28226540218889273,
+     "area": 73
+    }
+   ]
+  },
+  {
+   "image": "003054.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      225,
+      74
+     ],
+     "sign": 1,
+     "amp": 0.25112219541145764,
+     "area": 73
+    },
+    {
+     "kind": "particle",
+     "center": [
+      53,
+      64
+     ],
+     "sign": 1,
+     "amp": 0.34785956826532366,
+     "area": 177
+    },
+    {
+     "kind": "void",
+     "center": [
+      63,
+      215
+     ],
+     "sign": -1,
+     "amp": 0.17818078181532537,
+     "area": 37
+    },
+    {
+     "kind": "void",
+     "center": [
+      142,
+      89
+     ],
+     "sign": -1,
+     "amp": 0.32603725226669733,
+     "area": 149
+    }
+   ]
+  },
+  {
+   "image": "003067.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      235,
+      58
+     ],
+     "sign": 1,
+     "amp": 0.22955860208365064,
+     "area": 43
+    },
+    {
+     "kind": "void",
+     "center": [
+      37,
+      114
+     ],
+     "sign": -1,
+     "amp": 0.151138912927938,
+     "area": 101
+    },
+    {
+     "kind": "particle",
+     "center": [
+      67,
+      204
+     ],
+     "sign": -1,
+     "amp": 0.16425420179176872,
+     "area": 215
+    }
+   ]
+  },
+  {
+   "image": "003098.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      42,
+      138
+     ],
+     "sign": 1,
+     "amp": 0.19515906639359842,
+     "area": 53
+    },
+    {
+     "kind": "particle",
+     "center": [
+      212,
+      166
+     ],
+     "sign": 1,
+     "amp": 0.17854908507846065,
+     "area": 87
+    },
+    {
+     "kind": "void",
+     "center": [
+      41,
+      70
+     ],
+     "sign": -1,
+     "amp": 0.28675391082269086,
+     "area": 89
+    }
+   ]
+  },
+  {
+   "image": "003128.npy",
+   "defects": [
+    {
+     "kind": "particle",
+     "center": [
+      133,
+      200
+     ],
+     "sign": -1,
+     "amp": 0.2750615480472586,
+     "area": 125
+    },
+    {
+     "kind": "void",
+     "center": [
+      25,
+      45
+     ],
+     "sign": -1,
+     "amp": 0.2477099907704981,
+     "area": 185
+    },
+    {
+     "kind": "particle",
+     "center": [
+      120,
+      104
+     ],
+     "sign": -1,
+     "amp": 0.23888521180620176,
+     "area": 65
+    }
+   ]
+  },
+  {
+   "image": "003189.npy",
+   "defects": [
+    {
+     "kind": "bridge",
+     "center": [
+      37,
+      122
+     ],
+     "sign": 1,
+     "amp": 0.1688100803800089,
+     "area": 45
+    },
+    {
+     "kind": "void",
+     "center": [
+      75,
+      40
+     ],
+     "sign": -1,
+     "amp": 0.2895807939051145,
+     "area": 89
+    },
+    {
+     "kind": "bridge",
+     "center": [
+      171,
+      231
+     ],
+     "sign": 1,
+     "amp": 0.2824045178158925,
+     "area": 35
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "figure": "fig_noise_domains",
+ "generated_by": "master notebook",
+ "epochs": 30,
+ "seeds": [
+  4,
+  5,
+  6,
+  7
+ ],
+ "n_pairs": 3200,
+ "fit": {
+  "domain 1: speckle + Gaussian (KLA)": {
+   "c0": -0.0005328879924491048,
+   "c1_linear": 0.008570630103349686,
+   "c2_quadratic": 0.018007084727287292
+  },
+  "domain 2: Poisson-Gaussian (peak=40)": {
+   "c0": 0.000396051473217085,
+   "c1_linear": 0.006247401237487793,
+   "c2_quadratic": 1.545510531286709e-05
+  }
+ },
+ "d2_peak": 40.0,
+ "d2_sigma": 0.04
+}

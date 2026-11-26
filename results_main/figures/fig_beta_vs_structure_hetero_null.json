@@ -1,0 +1,12 @@
+{
+ "split": "train",
+ "n_patches": 6400,
+ "patch": 32,
+ "estimator": "moment (checked vs MLE)",
+ "r_observed": {
+  "edge_density": -0.37262279505088697,
+  "gt_var": -0.5032841686048142,
+  "entropy": -0.41979560225655704
+ },
+ "table": "heteroscedastic-Gaussian null"
+}

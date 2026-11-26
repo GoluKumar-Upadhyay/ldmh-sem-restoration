@@ -1,0 +1,31 @@
+{
+ "name": "Restormer-FiLM-control",
+ "seed": 1,
+ "best_epoch": 30,
+ "epochs_run": 30,
+ "params": 141110,
+ "val": {
+  "psnr": 28.005762547254562,
+  "ssim": 0.757547540590167,
+  "hp_err": 0.09886518552957568,
+  "edge_corr": 0.8693092477507889,
+  "edge_f1": 0.6181516042444855,
+  "flat_err": 0.019749531192792345
+ },
+ "test": {
+  "psnr": 27.96561196744442,
+  "ssim": 0.7405277012847364,
+  "hp_err": 0.10359877506853081,
+  "edge_corr": 0.8592816912103445,
+  "edge_f1": 0.60915369046852,
+  "flat_err": 0.02230990054849826
+ },
+ "train_minutes": 26.81668903827667,
+ "device": "cuda",
+ "cfg": {
+  "arch": "ldmh",
+  "backbone": "restormer",
+  "film": true,
+  "loss": "charbonnier"
+ }
+}

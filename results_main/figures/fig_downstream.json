@@ -1,0 +1,7 @@
+{
+ "dataset": "Carinthia-S",
+ "n_test": 18,
+ "looks": 9.259709358215332,
+ "sigma": 0.04252737760543823,
+ "error_bars": "95% bootstrap CI over images"
+}
