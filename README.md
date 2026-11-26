@@ -10,7 +10,7 @@
 ![Domain](https://img.shields.io/badge/Domain-Semiconductor%20SEM%20inspection-0a7ea4)
 ![Seeds](https://img.shields.io/badge/Seeds-up%20to%208-2ea44f)
 ![License](https://img.shields.io/badge/License-MIT-blue)
-![Status](https://img.shields.io/badge/Manuscript-under%20review-orange)
+
 
 [Key results](#key-results) · [Method](#method) · [Quick start](#quick-start) · [Protocol](#experimental-protocol) · [Reproduce](#reproducing-the-manuscript) · [Limitations](#limitations) · [Citation](#citation)
 
@@ -231,7 +231,7 @@ Each run writes `runs/<arm>/seed<k>/` with `best.pth`, `history.csv`, `test_per_
 
 ```bibtex
 @unpublished{kumar2026ldmh,
-  author = {Kumar, Golu},
+  author = {Golu Kumar},
   title  = {Distribution-Adaptive Restoration of Degraded Semiconductor Inspection Images:
             A Controlled Study of a Local Distribution Mixture Head},
   year   = {2026},
